@@ -18,4 +18,4 @@ export function whatsappLink(message: string): string {
 
 // Web3Forms access key — free service, sign up at web3forms.com and drop the
 // key in here. Until then the contact form falls back to a mailto: link.
-export const WEB3FORMS_ACCESS_KEY = "";
+export const WEB3FORMS_ACCESS_KEY = "3de3dcb1-e554-4527-9a26-5a5e4ee44186";

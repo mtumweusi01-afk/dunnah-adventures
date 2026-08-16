@@ -5,10 +5,10 @@ from working today — it's all placeholder-but-functional.
 
 ## Branding
 
-- [ ] **Logo** — replace the inline SVG wordmark in
-      [src/components/layout/Logo.tsx](src/components/layout/Logo.tsx) with
-      the real logo file (drop it in `public/images/logo.svg` or `.png` and
-      swap the component to render it via `next/image`).
+- [x] **Logo** — real logo in place at `public/images/logo.png` (cleaned up
+      from the supplied source: trimmed and background made transparent),
+      rendered via `next/image` in
+      [src/components/layout/Logo.tsx](src/components/layout/Logo.tsx).
 - [ ] **Hero image** — replace `public/images/hero.jpg` (currently a
       Wikimedia Commons placeholder, see Photo credits below) with the
       supplied hero photo. Keep the same filename or update the reference in
@@ -29,12 +29,8 @@ from working today — it's all placeholder-but-functional.
 
 ## Forms
 
-- [ ] **Web3Forms access key** — sign up free at
-      [web3forms.com](https://web3forms.com), then set
-      `WEB3FORMS_ACCESS_KEY` in
-      [src/lib/site.ts](src/lib/site.ts). Until set, the contact form falls
-      back to opening a pre-filled `mailto:` link instead of submitting
-      directly.
+- [x] **Web3Forms access key** — set in
+      [src/lib/site.ts](src/lib/site.ts). Contact form submits directly.
 
 ## Pricing
 
