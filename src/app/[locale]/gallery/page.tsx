@@ -32,11 +32,17 @@ export default async function GalleryPage({
 
       <Lightbox images={images} />
 
-      <div className="mt-14 rounded-2xl border border-dashed border-border bg-surface-muted p-8 text-center">
-        <h2 className="font-serif text-xl font-semibold mb-2">
-          {dict.gallery.videosComingSoonTitle}
-        </h2>
-        <p className="text-text-secondary max-w-md mx-auto">{dict.gallery.videosComingSoonText}</p>
+      <div className="mt-14">
+        <h2 className="font-serif text-xl font-semibold mb-2">{dict.gallery.videoTitle}</h2>
+        <p className="text-text-secondary max-w-md mb-6">{dict.gallery.videoText}</p>
+        <video
+          controls
+          playsInline
+          poster="/images/hero.jpg"
+          className="w-full max-w-3xl rounded-2xl border border-border"
+        >
+          <source src="/videos/hero.mp4" type="video/mp4" />
+        </video>
       </div>
     </Container>
   );

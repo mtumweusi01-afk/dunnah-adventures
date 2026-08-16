@@ -132,9 +132,8 @@ const cs: Dictionary = {
     eyebrow: "Galerie",
     title: "Fotografie a videa",
     subtitle: "Ochutnávka toho, co na vás v Keni čeká.",
-    videosComingSoonTitle: "Videa již brzy",
-    videosComingSoonText:
-      "Brzy přidáme skutečné záběry z cest Dunnah Adventures — sledujte nás.",
+    videoTitle: "Keňa v pohybu",
+    videoText: "Krátký pohled na krajinu a divokou zvěř, která na vás čeká.",
   },
   blog: {
     eyebrow: "Tipy na cesty",

@@ -132,9 +132,8 @@ const pl: Dictionary = {
     eyebrow: "Galeria",
     title: "Zdjęcia i filmy",
     subtitle: "Zapowiedź tego, co czeka na Ciebie w Kenii.",
-    videosComingSoonTitle: "Filmy już wkrótce",
-    videosComingSoonText:
-      "Wkrótce dodamy prawdziwe nagrania z wyjazdów Dunnah Adventures — zaglądaj tu częściej.",
+    videoTitle: "Kenia w ruchu",
+    videoText: "Krótkie spojrzenie na krajobrazy i dziką przyrodę, która na Ciebie czeka.",
   },
   blog: {
     eyebrow: "Porady podróżnicze",

@@ -20,9 +20,9 @@ from working today — it's all placeholder-but-functional.
 
 ## Contact details (`src/lib/site.ts`)
 
-- [ ] Phone number (currently a placeholder Kenyan-format number)
-- [ ] WhatsApp number
-- [ ] Email address
+- [x] Phone number — +254 707 099 579
+- [x] WhatsApp number — same as phone
+- [x] Email address — dunnahadventures@gmail.com
 - [ ] Instagram URL
 - [ ] TikTok URL
 - [ ] Office address
@@ -49,9 +49,9 @@ from working today — it's all placeholder-but-functional.
       `public/images/gallery/` with your own photography, and once none of
       the Commons images remain, the `/photo-credits/` page and
       `src/data/photo-credits.ts` can be deleted along with its footer link.
-- [ ] Video: the Gallery page currently shows a "videos coming soon" note.
-      Once footage is ready (from Google Drive), add a video section/player
-      to [src/app/[locale]/gallery/page.tsx](<src/app/[locale]/gallery/page.tsx>).
+- [x] Video: `public/videos/hero.mp4` is in use as the homepage hero
+      background (desktop/tablet) and as a player on the Gallery page. Swap
+      in more clips as they arrive from Google Drive.
 
 ## Content review
 

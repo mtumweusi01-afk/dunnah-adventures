@@ -134,9 +134,8 @@ const en: Dictionary = {
     eyebrow: "Gallery",
     title: "Photo & Video Gallery",
     subtitle: "A glimpse of what's waiting for you in Kenya.",
-    videosComingSoonTitle: "Videos coming soon",
-    videosComingSoonText:
-      "We're adding real footage from Dunnah Adventures trips shortly — check back soon.",
+    videoTitle: "See Kenya in motion",
+    videoText: "A quick look at the landscapes and wildlife waiting for you.",
   },
   blog: {
     eyebrow: "Travel tips",

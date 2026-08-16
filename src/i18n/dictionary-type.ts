@@ -75,8 +75,8 @@ export type Dictionary = {
     eyebrow: string;
     title: string;
     subtitle: string;
-    videosComingSoonTitle: string;
-    videosComingSoonText: string;
+    videoTitle: string;
+    videoText: string;
   };
   blog: {
     eyebrow: string;
