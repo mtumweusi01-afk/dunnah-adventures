@@ -5,6 +5,9 @@ const GREETING: Record<Locale, string> = {
   en: "Hi Dunnah Adventures, I'd like to know more about a Kenya safari.",
   cs: "Dobrý den, Dunnah Adventures, ráda/rád bych se dozvěděla/dozvěděl více o safari v Keni.",
   pl: "Dzień dobry, Dunnah Adventures, chciałbym/chciałabym dowiedzieć się więcej o safari w Kenii.",
+  sk: "Dobrý deň, Dunnah Adventures, rád/rada by som sa dozvedel/dozvedela viac o safari v Keni.",
+  da: "Hej Dunnah Adventures, jeg vil gerne vide mere om et safari i Kenya.",
+  no: "Hei Dunnah Adventures, jeg vil gjerne vite mer om et safari i Kenya.",
 };
 
 export function WhatsAppButton({ locale }: { locale: Locale }) {

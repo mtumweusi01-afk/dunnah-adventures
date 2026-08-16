@@ -35,10 +35,10 @@ const cs: Dictionary = {
     heroTitle: "Divoká Keňa, na kterou nezapomenete",
     heroSubtitle:
       "Dunnah Adventures připravuje safari na míru, pobyty u moře a horské treky po celé Keni — s místními průvodci, kteří znají svou zemi jako své boty.",
-    heroCtaPrimary: "Naplánovat mé safari",
+    heroCtaPrimary: "Naplánovat si safari",
     heroCtaSecondary: "Zobrazit zájezdy",
     highlightsTitle: "Proč cestovat s Dunnah",
-    highlightsSubtitle: "Malý, osobní tým se sídlem v Keni — ne přepážka call centra.",
+    highlightsSubtitle: "Malý, osobní tým se sídlem v Keni — ne call centrum.",
     highlights: [
       {
         title: "Místní zkušení průvodci",
@@ -54,11 +54,11 @@ const cs: Dictionary = {
       },
       {
         title: "Skutečná podpora, vždy",
-        desc: "Přímý kontakt na WhatsApp s vaším plánovačem cesty před, během i po cestě.",
+        desc: "Přímý kontakt na WhatsApp s vaším specialistou na plánování cesty před, během i po cestě.",
       },
     ],
     tourTypesTitle: "Najděte si svou Keňu",
-    tourTypesSubtitle: "Naší specialitou jsou safari za divokou zvěří, ale Keňa nabízí mnohem víc.",
+    tourTypesSubtitle: "Naší specialitou jsou safari s divokou zvěří, ale Keňa nabízí mnohem víc.",
     destinationsTitle: "Ikonické keňské destinace",
     destinationsSubtitle: "Od nekonečných plání Masai Mara po bílé pláže Diani.",
     testimonialsTitle: "Co říkají cestovatelé",
@@ -87,7 +87,7 @@ const cs: Dictionary = {
     eyebrow: "Náš příběh",
     title: "O Dunnah Adventures",
     intro: [
-      "Dunnah Adventures je keňská cestovní kancelář postavená na jedné myšlence: safari by mělo být osobní, ne balíčkové.",
+      "Dunnah Adventures je keňská cestovní kancelář postavená na jedné myšlence: safari by mělo být osobní, ne katalogové.",
       "[Zástupný text — doplňte skutečný příběh vzniku: kdo Dunnah Adventures založil, proč, a čím je přístup týmu ke cestování po Keni jiný.]",
     ],
     missionTitle: "Naše poslání",
@@ -115,7 +115,7 @@ const cs: Dictionary = {
     eyebrow: "Zájezdy a balíčky",
     title: "Zájezdy a balíčky",
     subtitle:
-      "Od klasických safari za divokou zvěří po pobyty u moře a horské treky — každý itinerář lze upravit na míru.",
+      "Od klasických safari s divokou zvěří po pobyty u moře a horské treky — každý itinerář lze upravit na míru.",
     itineraryTitle: "Doporučený itinerář",
     includedTitle: "Velikost skupiny",
     inquireAboutThis: "Poptat tento zájezd",
@@ -158,8 +158,8 @@ const cs: Dictionary = {
       "Při odesílání formuláře se něco pokazilo. Napište nám prosím přes WhatsApp nebo e-mail.",
     directTitle: "Chcete nás kontaktovat přímo?",
     whatsappCta: "Napsat na WhatsApp",
-    callCta: "Zavolejte nám",
-    emailCta: "Napište nám e-mail",
+    callCta: "Zavolat nám",
+    emailCta: "Napsat nám e-mail",
     followUs: "Sledujte nás",
   },
   footer: {

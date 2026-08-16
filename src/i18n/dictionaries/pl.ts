@@ -25,8 +25,8 @@ const pl: Dictionary = {
     groupSize: "Wielkość grupy",
     duration: "Czas trwania",
     viewAll: "Zobacz wszystkie",
-    exploreTours: "Zobacz wycieczki",
-    exploreDestinations: "Zobacz kierunki",
+    exploreTours: "Przeglądaj wycieczki",
+    exploreDestinations: "Przeglądaj kierunki",
     days: "dni",
     allGroupSizes: "Grupy prywatne, małe i duże",
   },
@@ -105,7 +105,7 @@ const pl: Dictionary = {
       },
       {
         title: "Bezpieczeństwo przede wszystkim",
-        desc: "Doświadczeni kierowcy, dobrze utrzymane pojazdy i zweryfikowani partnerzy obozowi.",
+        desc: "Doświadczeni kierowcy, dobrze utrzymane pojazdy i zweryfikowane obozy partnerskie.",
       },
     ],
     licensingNote:
@@ -147,10 +147,10 @@ const pl: Dictionary = {
     formNameLabel: "Imię i nazwisko",
     formEmailLabel: "Adres e-mail",
     formPhoneLabel: "Telefon / WhatsApp",
-    formTourLabel: "Zainteresowanie",
+    formTourLabel: "Interesująca Cię wycieczka",
     formMessageLabel: "Twoja wiadomość",
     formMessagePlaceholder:
-      "Podaj terminy podróży, liczbę osób i to, co chciałbyś przeżyć...",
+      "Podaj terminy podróży, liczbę osób i to, co chcesz przeżyć...",
     formSubmit: "Wyślij zapytanie",
     formSubmitting: "Wysyłanie...",
     formSuccess: "Dziękujemy! Twoje zapytanie zostało wysłane — wkrótce się odezwiemy.",

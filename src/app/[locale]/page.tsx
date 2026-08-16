@@ -37,16 +37,6 @@ export default async function HomePage({
             sizes="100vw"
             className="object-cover"
           />
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            poster="/images/hero.jpg"
-            className="hidden sm:block absolute inset-0 h-full w-full object-cover motion-reduce:hidden"
-          >
-            <source src="/videos/hero.mp4" type="video/mp4" />
-          </video>
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
         </div>
         <Container className="flex min-h-[70vh] flex-col justify-end gap-5 py-16 text-white">

@@ -49,16 +49,24 @@ from working today — it's all placeholder-but-functional.
       `public/images/gallery/` with your own photography, and once none of
       the Commons images remain, the `/photo-credits/` page and
       `src/data/photo-credits.ts` can be deleted along with its footer link.
-- [x] Video: `public/videos/hero.mp4` is in use as the homepage hero
-      background (desktop/tablet) and as a player on the Gallery page. Swap
-      in more clips as they arrive from Google Drive.
+- [x] Video: `public/videos/hero.mp4` is in use as a player on the Gallery
+      page (homepage hero stays a static photo). Swap in more clips as they
+      arrive from Google Drive.
 
 ## Content review
 
-- [ ] **Czech and Polish copy is AI-translated** for launch (see
-      `src/i18n/dictionaries/cs.ts` and `pl.ts`, and the localized fields in
-      `src/data/tours.ts`, `destinations.ts`, `blog.ts`). Recommend a native
-      speaker review pass before heavy marketing spend in those markets.
+- [x] **Czech and Polish UI strings reviewed** — an agent pass corrected
+      several inaccurate/awkward phrases in `src/i18n/dictionaries/cs.ts`
+      and `pl.ts`. Still recommend a native-speaker pass before heavy
+      marketing spend in those markets.
+- [ ] **Czech/Polish copy in the data files** (`src/data/tours.ts`,
+      `destinations.ts`, `blog.ts`, `pricing.ts`) hasn't had that same
+      review pass yet — still as originally AI-translated.
+- [ ] **Slovak, Danish, and Norwegian are new languages** added throughout
+      `src/i18n/dictionaries/sk.ts` / `da.ts` / `no.ts` and every localized
+      field in `src/data/*.ts`. All AI-translated for launch — same
+      native-speaker review recommendation applies before marketing spend
+      in those markets.
 - [ ] About page story (`src/i18n/dictionaries/*.ts` → `about.intro`) is a
       placeholder — replace with the real founding story.
 - [ ] Licensing/KATO membership note (`about.licensingNote`) is empty —
