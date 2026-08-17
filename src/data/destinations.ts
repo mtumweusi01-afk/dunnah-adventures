@@ -6,7 +6,7 @@ const destinations: Destination[] = [
     image: "/images/destinations/maasai-mara.jpg",
     title: { en: "Maasai Mara", cs: "Masai Mara", pl: "Masajska Mara", sk: "Masajská Mara", da: "Maasai Mara", no: "Maasai Mara" },
     summary: {
-      en: "Kenya's most famous reserve — endless plains, big cats and the Great Migration.",
+      en: "The reserve most people mean when they ask for 'a Kenya safari' — wide open plains, resident lion and cheetah, and for a few months each year, the wildebeest migration thundering through.",
       cs: "Nejslavnější keňská rezervace — nekonečné pláně, velké kočky a Velká migrace.",
       pl: "Najsłynniejszy kenijski rezerwat — bezkresne równiny, wielkie koty i Wielka Migracja.",
       sk: "Najznámejšia keňská rezervácia — nekonečné pláne, veľké mačky a Veľká migrácia.",
@@ -15,10 +15,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "Great Wildebeest Migration (Jul–Oct)",
-        "Dense lion and cheetah populations",
-        "Hot air balloon safaris at sunrise",
-        "Maasai community visits nearby",
+        "The wildebeest migration — usually Jul–Oct, never guaranteed, always worth chasing",
+        "Some of the highest lion and cheetah densities in Kenya",
+        "Sunrise balloon safaris over the plains",
+        "Maasai villages nearby if you want to add a cultural visit",
       ],
       cs: [
         "Velká migrace pakoňů (červenec–říjen)",
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "July–October for the migration; good game viewing year-round.",
+      en: "Best July–October if you want the migration, but honestly the game viewing here is good most of the year.",
       cs: "Červenec–říjen kvůli migraci; dobré pozorování zvěře po celý rok.",
       pl: "Lipiec–październik ze względu na migrację; dobre warunki do obserwacji zwierząt cały rok.",
       sk: "Júl–október kvôli migrácii; dobré pozorovanie zveri po celý rok.",
@@ -65,7 +65,7 @@ const destinations: Destination[] = [
     image: "/images/destinations/amboseli.jpg",
     title: { en: "Amboseli National Park", cs: "Národní park Amboseli", pl: "Park Narodowy Amboseli", sk: "Národný park Amboseli", da: "Amboseli Nationalpark", no: "Amboseli nasjonalpark" },
     summary: {
-      en: "Free-ranging elephant herds framed by the snow-capped peak of Kilimanjaro.",
+      en: "Elephant herds roam right out in the open here, with Kilimanjaro's snow-capped peak rising behind them on a clear morning. It's one of the most photographed views in the country.",
       cs: "Volně žijící stáda slonů na pozadí zasněženého vrcholu Kilimandžára.",
       pl: "Swobodnie wędrujące stada słoni na tle ośnieżonego szczytu Kilimandżaro.",
       sk: "Voľne žijúce stáda slonov na pozadí zasneženého vrcholu Kilimandžára.",
@@ -74,10 +74,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "Iconic Kilimanjaro backdrop views",
-        "Large elephant herds up close",
-        "Swamp ecosystems with rich birdlife",
-        "Maasai cultural encounters",
+        "Kilimanjaro views on a clear morning — bring a good camera",
+        "Elephant herds you can get properly close to",
+        "Swamps and marshes that pull in a lot of birdlife",
+        "Maasai cultural visits can be added on",
       ],
       cs: [
         "Ikonické výhledy na Kilimandžáro",
@@ -111,7 +111,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "June–October and January–February for clearest Kilimanjaro views.",
+      en: "June–October and January–February give you the clearest views of Kilimanjaro.",
       cs: "Červen–říjen a leden–únor pro nejjasnější výhledy na Kilimandžáro.",
       pl: "Czerwiec–październik oraz styczeń–luty dla najlepszej widoczności Kilimandżaro.",
       sk: "Jún–október a január–február pre najjasnejšie výhľady na Kilimandžáro.",
@@ -124,7 +124,7 @@ const destinations: Destination[] = [
     image: "/images/gallery/tsavo-big-tusker.jpg",
     title: { en: "Tsavo East & West", cs: "Tsavo Východ a Západ", pl: "Tsavo Wschodnie i Zachodnie", sk: "Tsavo Východ a Západ", da: "Tsavo Øst & Vest", no: "Tsavo Øst og Vest" },
     summary: {
-      en: "Kenya's largest park system, famous for red-dust elephants and rugged wilderness.",
+      en: "Kenya's biggest park by a long way, split into East and West, known for elephants that turn rust-red from the iron-rich dust and for wilderness you can drive through for hours without meeting another vehicle.",
       cs: "Největší keňský park, proslulý slony zbarvenými do červena a drsnou divočinou.",
       pl: "Największy system parków w Kenii, słynący ze słoni pokrytych czerwonym pyłem i dzikiej przyrody.",
       sk: "Najväčší keňský parkový systém, preslávený slonmi sfarbenými dočervena a drsnou divočinou.",
@@ -133,10 +133,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "\"Red elephants\" dusted by iron-rich soil",
-        "Mzima Springs' hippos and crystal water",
-        "Vast, less-crowded wilderness",
-        "Lugard Falls and the Galana River",
+        "The famous \"red elephants\", dusted rust-orange by the local soil",
+        "Mzima Springs, where you can watch hippos through clear water",
+        "Miles of wilderness with far fewer vehicles than the Mara",
+        "Lugard Falls on the Galana River",
       ],
       cs: [
         "„Červení sloni“ pokrytí prachem bohatým na železo",
@@ -170,7 +170,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "June–October (dry season) for the best game viewing.",
+      en: "Dry season, June–October, is when game viewing is at its best.",
       cs: "Červen–říjen (období sucha) pro nejlepší pozorování zvěře.",
       pl: "Czerwiec–październik (pora sucha) dla najlepszych obserwacji zwierząt.",
       sk: "Jún–október (obdobie sucha) pre najlepšie pozorovanie zveri.",
@@ -183,7 +183,7 @@ const destinations: Destination[] = [
     image: "/images/gallery/nakuru-rhino.jpg",
     title: { en: "Lake Nakuru", cs: "Jezero Nakuru", pl: "Jezioro Nakuru", sk: "Jazero Nakuru", da: "Nakurusøen", no: "Nakurusjøen" },
     summary: {
-      en: "A soda lake famous for flamingo flocks and a dedicated rhino sanctuary.",
+      en: "A compact soda lake ringed by cliffs. Depending on water levels you might find thousands of flamingos here, and there's a well-protected sanctuary for both black and white rhino.",
       cs: "Sodné jezero proslulé hejny plameňáků a chráněnou oblastí pro nosorožce.",
       pl: "Jezioro sodowe słynące ze stad flamingów i dedykowanego sanktuarium nosorożców.",
       sk: "Sodné jazero preslávené kŕdľami plameniakov a chráneným územím pre nosorožce.",
@@ -192,10 +192,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "Flamingo flocks (seasonal, varies with water levels)",
-        "Black and white rhino sanctuary",
-        "Rothschild's giraffe population",
-        "Compact park, easy day trips",
+        "Flamingos, when the water levels bring them in",
+        "A dedicated sanctuary for black and white rhino",
+        "Rothschild's giraffe",
+        "Small enough to do comfortably as a day trip",
       ],
       cs: [
         "Hejna plameňáků (sezónní, závisí na hladině vody)",
@@ -229,7 +229,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "Year-round; flamingo numbers vary with lake water levels.",
+      en: "Open year-round — how many flamingos you'll see depends on the lake's water level at the time.",
       cs: "Po celý rok; počet plameňáků se liší podle hladiny vody v jezeře.",
       pl: "Cały rok; liczba flamingów zależy od poziomu wody w jeziorze.",
       sk: "Po celý rok; počet plameniakov sa líši podľa hladiny vody v jazere.",
@@ -242,7 +242,7 @@ const destinations: Destination[] = [
     image: "/images/destinations/diani-beach.jpg",
     title: { en: "Diani Beach", cs: "Pláž Diani", pl: "Plaża Diani", sk: "Pláž Diani", da: "Diani Beach", no: "Diani Beach" },
     summary: {
-      en: "Powder-white sand and turquoise water on Kenya's south coast — the classic safari-and-beach finish.",
+      en: "Most of our guests end their trip here: white sand, warm turquoise water and a reef close enough to snorkel from the beach.",
       cs: "Bílý jemný písek a tyrkysové moře na jižním pobřeží Keni — klasické zakončení safari u moře.",
       pl: "Biały, drobny piasek i turkusowa woda na południowym wybrzeżu Kenii — klasyczne zakończenie safari nad morzem.",
       sk: "Jemný biely piesok a tyrkysové more na južnom pobreží Kene — klasické zakončenie safari pri mori.",
@@ -251,10 +251,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "Coral reef snorkelling and diving",
-        "Dhow sunset cruises",
-        "Swahili coastal cuisine",
-        "Colobus monkey conservation area",
+        "Snorkelling and diving on the coral reef",
+        "Sunset cruises on a traditional dhow",
+        "Swahili coastal cooking — seafood, coconut, spice",
+        "A colobus monkey conservation area nearby",
       ],
       cs: [
         "Šnorchlování a potápění u korálového útesu",
@@ -288,7 +288,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "December–March and July–October for the driest, sunniest weather.",
+      en: "Driest and sunniest in December–March and July–October.",
       cs: "Prosinec–březen a červenec–říjen pro nejsušší a nejslunečnější počasí.",
       pl: "Grudzień–marzec oraz lipiec–październik dla najsuchszej i najbardziej słonecznej pogody.",
       sk: "December–marec a júl–október pre najsuchšie a najslnečnejšie počasie.",
@@ -301,7 +301,7 @@ const destinations: Destination[] = [
     image: "/images/destinations/mount-kenya.jpg",
     title: { en: "Mount Kenya", cs: "Hora Keňa", pl: "Góra Kenia", sk: "Hora Keňa", da: "Mount Kenya", no: "Mount Kenya" },
     summary: {
-      en: "Africa's second-highest peak — glacier-carved trails through five distinct climate zones.",
+      en: "Africa's second-highest mountain, and the good news is you don't need technical climbing experience to reach Point Lenana. Just fitness, a few days, and a route that crosses five distinct climate zones on the way up.",
       cs: "Druhá nejvyšší hora Afriky — ledovcem tvarované stezky pěti odlišnými klimatickými pásmy.",
       pl: "Drugi najwyższy szczyt Afryki — wyrzeźbione przez lodowiec szlaki przez pięć odrębnych stref klimatycznych.",
       sk: "Druhý najvyšší vrchol Afriky — ľadovcom vytvarované chodníky cez päť odlišných klimatických pásiem.",
@@ -310,10 +310,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "Point Lenana summit trek (non-technical)",
-        "Sirimon, Naro Moru and Chogoria routes",
-        "Alpine lakes and unique giant flora",
-        "Fewer crowds than Kilimanjaro",
+        "Point Lenana — the trekking summit, no climbing gear needed",
+        "Sirimon, Naro Moru and Chogoria routes, each with a different feel",
+        "Alpine lakes and strange giant plants the higher you climb",
+        "Nowhere near as crowded as Kilimanjaro",
       ],
       cs: [
         "Výstup na vrchol Point Lenana (netechnický)",
@@ -347,7 +347,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "January–February and August–September (driest trekking windows).",
+      en: "January–February or August–September are the driest windows for trekking.",
       cs: "Leden–únor a srpen–září (nejsušší období pro treking).",
       pl: "Styczeń–luty oraz sierpień–wrzesień (najsuchsze okresy na trekking).",
       sk: "Január–február a august–september (najsuchšie obdobia na treking).",
@@ -360,7 +360,7 @@ const destinations: Destination[] = [
     image: "/images/destinations/maasai-culture.jpg",
     title: { en: "Maasai Culture & Villages", cs: "Kultura a vesnice Masajů", pl: "Kultura i wioski Masajów", sk: "Kultúra a dediny Masajov", da: "Maasai-kultur og landsbyer", no: "Maasai-kultur og landsbyer" },
     summary: {
-      en: "Living Maasai communities near the Mara welcome visitors to share their traditions, songs and way of life.",
+      en: "Maasai communities living near the Mara welcome visitors in for a few hours to share songs, beadwork and a guided look at daily village life.",
       cs: "Živé komunity Masajů poblíž Mary vítají návštěvníky, aby sdíleli své tradice, písně a způsob života.",
       pl: "Żywe społeczności Masajów w pobliżu Mary zapraszają odwiedzających, by dzielić się tradycjami, pieśniami i sposobem życia.",
       sk: "Živé komunity Masajov v okolí Mary vítajú návštevníkov, aby sa s nimi podelili o svoje tradície, piesne a spôsob života.",
@@ -369,10 +369,10 @@ const destinations: Destination[] = [
     },
     highlights: {
       en: [
-        "Traditional dance and jumping ceremonies",
+        "Traditional dancing, including the jumping ceremonies",
         "Beadwork and craft demonstrations",
-        "Guided village (manyatta) visits",
-        "Community-run cultural centres",
+        "Guided visits into a manyatta (village)",
+        "Cultural centres run by the community itself",
       ],
       cs: [
         "Tradiční tance a skokové obřady",
@@ -406,7 +406,7 @@ const destinations: Destination[] = [
       ],
     },
     bestTime: {
-      en: "Year-round — usually combined with a Maasai Mara safari.",
+      en: "Any time of year — most people add it on to a Maasai Mara safari.",
       cs: "Po celý rok — obvykle v kombinaci se safari v Masai Mara.",
       pl: "Cały rok — zwykle łączone z safari w Masajskiej Marze.",
       sk: "Po celý rok — zvyčajne v kombinácii so safari v Masajskej Mare.",

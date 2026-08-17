@@ -18,7 +18,7 @@ const tours: Tour[] = [
       no: "Klassisk viltsafari",
     },
     summary: {
-      en: "Our signature circuit through the Maasai Mara, Lake Nakuru and Amboseli — Kenya's Big Five heartland.",
+      en: "This is the trip we put most first-time visitors on: Maasai Mara, Lake Nakuru, then Amboseli, so you get a real shot at all five of the classics.",
       cs: "Náš vlajkový okruh přes Masai Mara, jezero Nakuru a Amboseli — srdce keňské „velké pětky“.",
       pl: "Nasza flagowa trasa przez Masajską Marę, jezioro Nakuru i Amboseli — serce kenijskiej Wielkiej Piątki.",
       sk: "Naša vlajková trasa cez Masai Maru, jazero Nakuru a Amboseli — srdce keňskej „veľkej päťky“.",
@@ -26,7 +26,7 @@ const tours: Tour[] = [
       no: "Vår signaturrute gjennom Maasai Mara, Nakurusjøen og Amboseli — hjertet av Kenyas «Big Five»-land.",
     },
     description: {
-      en: "The trip most people picture when they imagine Kenya: open savanna, big cats, vast herds and skies that go on forever. This circuit balances the Mara's density of wildlife with Amboseli's Kilimanjaro views and Nakuru's flamingo-lined lake, with comfortable lodges or tented camps each night.",
+      en: "This is the Kenya most people already have in their head before they land: open savanna, big cats, huge herds moving across plains that don't seem to end. We built the route around the Mara for sheer density of wildlife, Amboseli for the Kilimanjaro backdrop, and Nakuru for the flamingos along the shore. You'll have a proper lodge or tented camp waiting every night, nothing rough about it.",
       cs: "Cesta, kterou si většina lidí představí, když se řekne Keňa: otevřená savana, velké kočky, obrovská stáda a nekonečné nebe. Tento okruh spojuje bohatství divoké zvěře v Maře s výhledy na Kilimandžáro v Amboseli a jezerem Nakuru lemovaným plameňáky, s pohodlnými lodge nebo stanovými kempy každou noc.",
       pl: "Podróż, którą większość ludzi wyobraża sobie, myśląc o Kenii: otwarta sawanna, wielkie koty, ogromne stada i niekończące się niebo. Ta trasa łączy bogactwo dzikiej przyrody Mary z widokami na Kilimandżaro w Amboseli i jeziorem Nakuru pełnym flamingów, z komfortowymi lodge lub obozami namiotowymi każdej nocy.",
       sk: "Cesta, ktorú si väčšina ľudí predstaví, keď sa povie Keňa: otvorená savana, veľké mačky, obrovské stáda a nekonečná obloha. Táto trasa spája bohatstvo divokej zveri v Mare s výhľadmi na Kilimandžáro v Amboseli a jazerom Nakuru lemovaným plameniakmi, s pohodlnými lodžami alebo stanovými kempmi každú noc.",
@@ -96,7 +96,7 @@ const tours: Tour[] = [
       no: "Safari og strandferie",
     },
     summary: {
-      en: "The best of both worlds: Maasai Mara game drives followed by white-sand relaxation on Diani Beach.",
+      en: "Half the trip chasing wildlife across the Mara, the other half doing nothing much at all on Diani's white sand.",
       cs: "To nejlepší z obou světů: safari jízdy v Masai Mara a poté odpočinek na bílé pláži Diani.",
       pl: "Połączenie obu światów: safari w Masajskiej Marze, a następnie relaks na białej plaży Diani.",
       sk: "To najlepšie z oboch svetov: safari jazdy v Masai Mare a potom oddych na bielom piesku pláže Diani.",
@@ -104,7 +104,7 @@ const tours: Tour[] = [
       no: "Det beste fra begge verdener: viltsafari i Maasai Mara etterfulgt av avslapning på den hvite sandstranden i Diani.",
     },
     description: {
-      en: "Ten days built for pace and contrast — several days chasing wildlife across the Mara's plains, then a flight down to the coast to unwind on Diani's beaches, with reef snorkelling, dhow cruises and Swahili cuisine to close out the trip.",
+      en: "Ten days, two very different halves. First you're up before dawn several days running, chasing wildlife across the Mara's plains. Then we fly you down to the coast and that's it, no more early alarms: reef snorkelling, a dhow cruise, proper Swahili food, and plenty of time to just sit on Diani's beaches.",
       cs: "Deset dní stavěných na kontrastu tempa — několik dní sledování divoké zvěře na pláních Mary, poté let na pobřeží k odpočinku na plážích Diani, se šnorchlováním u útesu, plavbami na dhow lodi a suahilskou kuchyní na závěr cesty.",
       pl: "Dziesięć dni zbudowanych na kontraście tempa — kilka dni tropienia dzikich zwierząt na równinach Mary, a następnie lot na wybrzeże, by odpocząć na plażach Diani, ze snorkelingiem przy rafie, rejsami dhow i suahilską kuchnią na zakończenie podróży.",
       sk: "Desať dní postavených na kontraste tempa — niekoľko dní sledovania divokej zveri na plániach Mary, potom let na pobrežie, kde si oddýchnete na plážach Diani, so šnorchlovaním pri útese, plavbami na lodi dhow a swahilskou kuchyňou na záver cesty.",
@@ -174,7 +174,7 @@ const tours: Tour[] = [
       no: "Trekking på Mount Kenya",
     },
     summary: {
-      en: "A non-technical climb to Point Lenana through five climate zones, with fewer crowds than Kilimanjaro.",
+      en: "No technical climbing needed for this one. Sirimon up, Chogoria down, five climate zones on the way, and a fraction of the crowds you'd find on Kilimanjaro.",
       cs: "Netechnický výstup na Point Lenana pěti klimatickými pásmy, s méně turisty než na Kilimandžáru.",
       pl: "Nietechniczna wspinaczka na Point Lenana przez pięć stref klimatycznych, z mniejszym tłokiem niż na Kilimandżaro.",
       sk: "Netechnický výstup na Point Lenana cez päť klimatických pásiem, s menším počtom turistov než na Kilimandžáre.",
@@ -182,7 +182,7 @@ const tours: Tour[] = [
       no: "En ikke-teknisk topptur til Point Lenana gjennom fem klimasoner, med færre turister enn på Kilimanjaro.",
     },
     description: {
-      en: "For travellers who want a genuine physical challenge, this trek follows the Sirimon route up and Chogoria route down, crossing bamboo forest, moorland and alpine desert before reaching Point Lenana at 4,985m — no technical climbing gear required.",
+      en: "It's still a real physical challenge, don't underestimate it. We go up the Sirimon route and down through Chogoria, crossing bamboo forest, moorland and alpine desert on the way to Point Lenana at 4,985m. No ropes, no technical gear, just decent fitness and boots you've already broken in.",
       cs: "Pro cestovatele, kteří hledají skutečnou fyzickou výzvu, tento trek vede po trase Sirimon nahoru a Chogoria dolů, přes bambusový les, vřesoviště a alpskou poušť, než dosáhne Point Lenana ve výšce 4 985 m — bez potřeby technického horolezeckého vybavení.",
       pl: "Dla podróżnych szukających prawdziwego wyzwania fizycznego ten trekking prowadzi trasą Sirimon w górę i Chogoria w dół, przez las bambusowy, wrzosowiska i pustynię alpejską, zanim dotrze do Point Lenana na wysokości 4985 m — bez potrzeby technicznego sprzętu wspinaczkowego.",
       sk: "Pre cestovateľov, ktorí hľadajú skutočnú fyzickú výzvu, tento treking vedie po trase Sirimon nahor a Chogoria nadol, cez bambusový les, vresovisko a alpskú púšť, kým nedosiahne Point Lenana vo výške 4 985 m — bez potreby technického horolezeckého výstroja.",
@@ -252,7 +252,7 @@ const tours: Tour[] = [
       no: "Fordypning i Maasai-kultur",
     },
     summary: {
-      en: "Three days pairing Mara game drives with genuine time in a Maasai community — dance, beadwork and village life.",
+      en: "Three days that aren't only about the animals: morning and evening game drives in the Mara, plus real time spent in a Maasai community, with dance, beadwork and everyday village life.",
       cs: "Tři dny spojující safari v Maře se skutečným časem stráveným v komunitě Masajů — tanec, korálky a život ve vesnici.",
       pl: "Trzy dni łączące safari w Marze z prawdziwym czasem spędzonym w społeczności Masajów — taniec, koraliki i życie wioski.",
       sk: "Tri dni spájajúce safari v Mare so skutočným časom stráveným v komunite Masajov — tanec, korálky a život v dedine.",
@@ -260,7 +260,7 @@ const tours: Tour[] = [
       no: "Tre dager som kombinerer viltsafari i Mara med ekte tid i et Maasai-samfunn — dans, perlearbeid og landsbyliv.",
     },
     description: {
-      en: "A shorter trip focused on connection as much as wildlife: morning and evening game drives in the Mara, with a guided visit to a working manyatta (village) to learn traditions directly from Maasai hosts — arranged respectfully and in partnership with the community.",
+      en: "This shorter trip cares about people as much as wildlife. You get morning and evening game drives in the Mara, plus a guided visit to a working manyatta (village), where Maasai hosts show you their traditions themselves rather than through a display case. We've arranged this in partnership with the community and run it with respect, not as a photo stop.",
       cs: "Kratší cesta zaměřená stejně na propojení s lidmi jako na divokou zvěř: ranní a večerní safari v Maře, s návštěvou fungující manyatty (vesnice) s průvodcem, kde se přímo od hostitelů z řad Masajů dozvíte o jejich tradicích — organizováno s respektem a ve spolupráci s komunitou.",
       pl: "Krótsza podróż skupiona w równym stopniu na relacjach z ludźmi, co na dzikiej przyrodzie: poranne i wieczorne safari w Marze, z wizytą z przewodnikiem w działającej manyatcie (wiosce), by poznać tradycje bezpośrednio od masajskich gospodarzy — zorganizowane z szacunkiem i we współpracy ze społecznością.",
       sk: "Kratšia cesta zameraná rovnako na spojenie s ľuďmi ako na divokú zver: ranné a večerné safari v Mare, s návštevou fungujúcej manyatty (dediny) so sprievodcom, kde sa priamo od hostiteľov z radov Masajov dozviete o ich tradíciách — organizované s rešpektom a v spolupráci s komunitou.",
@@ -318,7 +318,7 @@ const tours: Tour[] = [
       no: "Dagstur til Nakurusjøen",
     },
     summary: {
-      en: "A full-day escape from Nairobi to see flamingos, rhino and giraffe without an overnight commitment.",
+      en: "Leave Nairobi in the morning, see flamingos, rhino and giraffe, be back before dark. No overnight bag needed.",
       cs: "Celodenní únik z Nairobi za plameňáky, nosorožci a žirafami bez nutnosti nocování.",
       pl: "Całodniowa wycieczka z Nairobi, by zobaczyć flamingi, nosorożce i żyrafy bez konieczności noclegu.",
       sk: "Celodenný únik z Nairobi za plameniakmi, nosorožcami a žirafami bez nutnosti nocovania.",
@@ -326,7 +326,7 @@ const tours: Tour[] = [
       no: "En heldagsutflukt fra Nairobi for å se flamingoer, neshorn og sjiraffer uten overnatting.",
     },
     description: {
-      en: "Ideal for travellers short on time: an early departure from Nairobi, a full day of game drives around Lake Nakuru's rhino sanctuary and lakeshore, then return in the evening — no overnight bag required.",
+      en: "Good if you're tight on time. We leave Nairobi early, spend the day on game drives around Lake Nakuru's rhino sanctuary and the lakeshore, then have you back by evening. Nothing to pack for an overnight, it's just a long day out.",
       cs: "Ideální pro cestovatele s omezeným časem: brzký odjezd z Nairobi, celodenní safari kolem chráněné oblasti pro nosorožce a břehu jezera Nakuru, poté návrat večer — bez nutnosti balit si věci na noc.",
       pl: "Idealne dla podróżnych z ograniczonym czasem: wczesny wyjazd z Nairobi, całodniowe safari wokół sanktuarium nosorożców i brzegu jeziora Nakuru, a następnie powrót wieczorem — bez konieczności pakowania na nocleg.",
       sk: "Ideálne pre cestovateľov s obmedzeným časom: skorý odchod z Nairobi, celodenné safari okolo rezervácie pre nosorožce a brehu jazera Nakuru, potom návrat večer — bez nutnosti baliť si veci na noc.",
@@ -384,7 +384,7 @@ const tours: Tour[] = [
       no: "Privat bryllupsreisesafari",
     },
     summary: {
-      en: "A fully private six-day journey through the Mara, Amboseli and the coast, in premium tented camps and lodges.",
+      en: "Six days, just the two of you: the Mara, then Amboseli, then the coast, staying in the better tented camps and lodges we work with.",
       cs: "Zcela soukromá šestidenní cesta přes Maru, Amboseli a pobřeží, v prémiových stanových kempech a lodge.",
       pl: "W pełni prywatna sześciodniowa podróż przez Marę, Amboseli i wybrzeże, w luksusowych obozach namiotowych i lodge.",
       sk: "Plne súkromná šesťdňová cesta cez Maru, Amboseli a pobrežie, v prémiových stanových kempoch a lodžiach.",
@@ -392,7 +392,7 @@ const tours: Tour[] = [
       no: "En helt privat seks-dagers reise gjennom Mara, Amboseli og kysten, i eksklusive teltleirer og lodger.",
     },
     description: {
-      en: "Just the two of you, a private vehicle and guide throughout — premium tented camps in the Mara and Amboseli, sundowner game drives, and a coastal close to the trip on Diani's beaches. Fully customisable to your dates and preferences.",
+      en: "It's just the two of you, with a private vehicle and guide for the whole trip. We put you up in the better tented camps in the Mara and Amboseli, build in sundowner game drives, and finish on Diani's beaches. Happy to shift dates and details around, this one's meant to be shaped to you.",
       cs: "Jen vy dva, soukromé vozidlo a průvodce po celou dobu — prémiové stanové kempy v Maře a Amboseli, safari při západu slunce a závěr cesty na pobřeží plážemi Diani. Plně přizpůsobitelné vašim termínům a preferencím.",
       pl: "Tylko wy dwoje, prywatny pojazd i przewodnik przez cały czas — luksusowe obozy namiotowe w Marze i Amboseli, safari o zachodzie słońca oraz zakończenie podróży na wybrzeżu, na plażach Diani. W pełni dostosowywalne do Waszych terminów i preferencji.",
       sk: "Len vy dvaja, súkromné vozidlo a sprievodca počas celej cesty — prémiové stanové kempy v Mare a Amboseli, safari pri západe slnka a záver cesty na pobreží na plážach Diani. Plne prispôsobiteľné vašim termínom a preferenciám.",

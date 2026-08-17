@@ -19,7 +19,7 @@ const en: Dictionary = {
     perPerson: "per person",
     perDay: "per person / day",
     perNight: "per person / night",
-    indicativePricing: "Indicative pricing — request a personalised quote",
+    indicativePricing: "Indicative pricing. Get in touch for a personalised quote",
     groupSize: "Group size",
     duration: "Duration",
     viewAll: "View all",
@@ -32,33 +32,32 @@ const en: Dictionary = {
     heroEyebrow: "Kenya, on your terms",
     heroTitle: "Wild Kenya, Made Unforgettable",
     heroSubtitle:
-      "Dunnah Adventures crafts tailor-made safaris, beach escapes and mountain treks across Kenya — led by local guides who know the land like family.",
+      "We plan safaris, beach escapes and mountain treks across Kenya, run by local guides who know this land like family.",
     heroCtaPrimary: "Plan my safari",
     heroCtaSecondary: "See tours",
     highlightsTitle: "Why travel with Dunnah",
-    highlightsSubtitle:
-      "A small, hands-on team based in Kenya — not a call centre.",
+    highlightsSubtitle: "A small, hands-on team based right here in Kenya.",
     highlights: [
       {
         title: "Local, expert guides",
-        desc: "Kenyan-born guides with deep knowledge of wildlife behaviour, terrain and culture.",
+        desc: "Born and raised in Kenya, our guides read wildlife behaviour and terrain like it's second nature.",
       },
       {
         title: "Tailor-made itineraries",
-        desc: "Every trip is built around you — pace, budget and interests included.",
+        desc: "We build the trip around you: pace, budget, what you actually want to see.",
       },
       {
         title: "Trusted on the ground",
-        desc: "Vetted lodges and camps across the Mara, Amboseli, Tsavo and the coast.",
+        desc: "Lodges and camps we've checked out ourselves, from the Mara to Amboseli, Tsavo and the coast.",
       },
       {
         title: "Real support, always",
-        desc: "Direct WhatsApp access to your trip planner before, during and after travel.",
+        desc: "Your trip planner is a WhatsApp message away, before you land and after you leave.",
       },
     ],
     tourTypesTitle: "Find your kind of Kenya",
     tourTypesSubtitle:
-      "Wildlife safaris are our specialty, but Kenya has far more to offer.",
+      "Wildlife safaris are what we're known for, but there's a lot more to Kenya than that.",
     destinationsTitle: "Iconic Kenyan destinations",
     destinationsSubtitle:
       "From the Maasai Mara's endless plains to Diani's white-sand coast.",
@@ -89,26 +88,26 @@ const en: Dictionary = {
     eyebrow: "Our story",
     title: "About Dunnah Adventures",
     intro: [
-      "Dunnah Adventures is a Kenya-based tour operator built around one idea: safaris should feel personal, not packaged. We're based in Malindi, on the Kenyan coast — which is why beach escapes sit naturally alongside our inland wildlife safaris, rather than as an afterthought.",
-      "The company was founded in 2019 by Dunnah, and takes its name from him. The inspiration came from his father, who ran a tourism company called Mavusho — a legacy Dunnah has carried forward in his own way, building a business rooted in that same coastal home.",
-      "Today, that legacy is a family affair. Dunnah leads Dunnah Adventures alongside his elder brothers, continuing what their father started and carrying it into a new generation of travellers.",
+      "Dunnah Adventures is a small, Kenya-based tour operator built on a simple idea: a safari works best when it's planned by people you can actually talk to. We're based in Malindi on the Kenyan coast, so beach time and wildlife safaris sit side by side for us quite naturally — it's just how travel looks when you grow up here.",
+      "Dunnah founded the company in 2019, and it carries his name. His father ran a tourism company called Mavusho, and that's really where the idea came from — Dunnah took what he learned growing up around that business and built something of his own on the same stretch of coast.",
+      "These days it's a family business in the fullest sense. Dunnah runs it together with his elder brothers, picking up where their father left off.",
     ],
     missionTitle: "Our mission",
     missionText:
-      "To connect travellers with the real Kenya — its wildlife, landscapes and people — through thoughtfully planned, locally guided journeys.",
+      "We want to connect travellers with the real Kenya: the wildlife, the landscapes, the people, on journeys planned and guided by locals who know the country.",
     whyTitle: "Why choose us",
     whyPoints: [
       {
         title: "Kenyan-owned, Kenyan-run",
-        desc: "Local knowledge and relationships you can't get from an overseas booking desk.",
+        desc: "A Kenyan business, run by Kenyans, with relationships on the ground that take years to build.",
       },
       {
         title: "Flexible, honest planning",
-        desc: "No pressure to upsell — we recommend what actually fits your trip.",
+        desc: "We tell you what's worth paying for and what isn't.",
       },
       {
         title: "Safety-first operations",
-        desc: "Experienced drivers, well-maintained vehicles and vetted partner camps.",
+        desc: "Experienced drivers, vehicles that are properly maintained, and camps we trust.",
       },
     ],
     licensingNote:
@@ -118,7 +117,7 @@ const en: Dictionary = {
     eyebrow: "Tours & packages",
     title: "Tours & Packages",
     subtitle:
-      "From classic wildlife safaris to beach add-ons and mountain treks — every itinerary can be customised.",
+      "Classic wildlife safaris, beach add-ons, mountain treks. Tell us what you want and we'll shape the itinerary around it.",
     itineraryTitle: "Suggested itinerary",
     includedTitle: "Group size",
     inquireAboutThis: "Inquire about this tour",
@@ -137,7 +136,7 @@ const en: Dictionary = {
     subtitle: "A glimpse of what's waiting for you in Kenya.",
     experienceTitle: "On safari with our guests",
     videoTitle: "See Kenya in motion",
-    videoText: "A quick look at the landscapes and wildlife waiting for you.",
+    videoText: "A short clip of the landscapes and wildlife you'll see out there.",
   },
   blog: {
     eyebrow: "Travel tips",
@@ -158,7 +157,7 @@ const en: Dictionary = {
       "Tell us your travel dates, group size, and what you'd love to experience...",
     formSubmit: "Send inquiry",
     formSubmitting: "Sending...",
-    formSuccess: "Thank you! Your inquiry has been sent — we'll be in touch soon.",
+    formSuccess: "Thanks! Your inquiry is in, we'll be in touch soon.",
     formError:
       "Something went wrong sending the form. Please reach out via WhatsApp or email instead.",
     directTitle: "Prefer to reach us directly?",
@@ -168,7 +167,7 @@ const en: Dictionary = {
     followUs: "Follow us",
   },
   footer: {
-    tagline: "Tailor-made Kenyan safaris, beach escapes and mountain treks.",
+    tagline: "Kenyan safaris, beach escapes and mountain treks, planned around you.",
     quickLinksTitle: "Quick links",
     contactTitle: "Contact",
     followTitle: "Follow",

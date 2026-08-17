@@ -13,7 +13,7 @@ const posts: BlogPost[] = [
       no: "Beste tidspunkt for å oppleve Den store migrasjonen",
     },
     excerpt: {
-      en: "When the wildebeest herds actually cross the Mara River, and how to time your trip around it.",
+      en: "When the herds actually cross the Mara River, and how to plan your trip around it.",
       cs: "Kdy stáda pakoňů skutečně přecházejí řeku Mara a jak si podle toho naplánovat cestu.",
       pl: "Kiedy stada antylop gnu faktycznie przekraczają rzekę Mara i jak zaplanować wokół tego podróż.",
       sk: "Kedy stáda pakoňov skutočne prechádzajú rieku Mara a ako si podľa toho naplánovať cestu.",
@@ -22,9 +22,9 @@ const posts: BlogPost[] = [
     },
     body: {
       en: [
-        "The Great Migration is a year-round cycle, not a single event — over a million wildebeest and zebra move in a loop between the Serengeti and the Maasai Mara following the rains.",
-        "The dramatic river crossings most travellers picture typically happen from July to October, when herds cross the Mara River into Kenya in search of fresh grazing.",
-        "Outside that window, the Mara still offers excellent resident wildlife viewing — lions, elephants and leopards are present year-round. Talk to us about the trade-offs between crossing season and shoulder-season pricing.",
+        "Over a million wildebeest and zebra spend the whole year on the move, looping between the Serengeti and the Maasai Mara as they chase the rains. It's a continuous cycle rather than a single event you can pin to one date.",
+        "The river crossings everyone pictures usually happen between July and October, when the herds push north across the Mara River into Kenya after fresh grazing.",
+        "Outside that window, the Mara still delivers strong wildlife viewing. Lions, elephants and leopards live there year round, so it's never really empty. Get in touch and we'll talk through the trade-off between crossing season and shoulder-season pricing.",
       ],
       cs: [
         "Velká migrace je celoroční cyklus, ne jednorázová událost — přes milion pakoňů a zeber se pohybuje ve smyčce mezi Serengeti a Masai Mara podle dešťů.",
@@ -65,7 +65,7 @@ const posts: BlogPost[] = [
       no: "Hva du bør pakke til en safari i Kenya",
     },
     excerpt: {
-      en: "A practical packing list for game drives, camp evenings and Kenya's variable weather.",
+      en: "A practical packing list for game drives, evenings at camp and Kenya's unpredictable weather.",
       cs: "Praktický seznam věcí na safari jízdy, večery v kempu a proměnlivé keňské počasí.",
       pl: "Praktyczna lista rzeczy na safari, wieczory w obozie i zmienną kenijską pogodę.",
       sk: "Praktický zoznam vecí na safari jazdy, večery v kempe a premenlivé keňské počasie.",
@@ -74,10 +74,10 @@ const posts: BlogPost[] = [
     },
     body: {
       en: [
-        "Neutral-coloured clothing (khaki, olive, tan) works best for game drives — avoid bright white and dark blue/black, which can attract insects.",
-        "Mornings and evenings on safari get genuinely cold, especially in open vehicles — pack a warm layer even in the dry season.",
-        "Essentials: sunscreen, insect repellent, a wide-brimmed hat, binoculars, a good camera or phone zoom lens, and any personal medication (plus antimalarials if advised by your doctor).",
-        "For beach add-ons, pack separately — lightweight, breathable clothing for the coast is very different from safari layers.",
+        "Stick to neutral colours for game drives: khaki, olive, tan. Skip bright white and dark blue or black, since both can attract insects.",
+        "It gets properly cold in the early morning and evening, especially riding in an open vehicle, so pack a warm layer even if you're travelling in the dry season.",
+        "Sunscreen, insect repellent, a wide-brimmed hat and binoculars are the non-negotiables. Bring a decent camera or a phone with a good zoom, plus whatever medication you take regularly, and antimalarials too if your doctor recommends them.",
+        "Planning a few days at the coast afterwards? Pack for it separately. Light, breathable clothing for the beach is nothing like what you need on safari.",
       ],
       cs: [
         "Oblečení v neutrálních barvách (khaki, olivová, béžová) je nejvhodnější na safari jízdy — vyhněte se jasně bílé a tmavě modré/černé, které mohou přitahovat hmyz.",
@@ -123,7 +123,7 @@ const posts: BlogPost[] = [
       no: "Visum og innreise til Kenya – det grunnleggende",
     },
     excerpt: {
-      en: "A starting-point overview of Kenya's e-Travel Authorization process — always confirm current rules with official sources.",
+      en: "A quick overview of Kenya's e-Travel Authorization process. Always confirm current rules with official sources.",
       cs: "Základní přehled procesu elektronického cestovního povolení do Keni — aktuální pravidla si vždy ověřte u oficiálních zdrojů.",
       pl: "Podstawowy przegląd procesu elektronicznej autoryzacji podróży do Kenii — zawsze zweryfikuj aktualne zasady w oficjalnych źródłach.",
       sk: "Základný prehľad procesu elektronického cestovného povolenia do Kene — aktuálne pravidlá si vždy overte u oficiálnych zdrojov.",
@@ -132,9 +132,9 @@ const posts: BlogPost[] = [
     },
     body: {
       en: [
-        "Most visitors need to apply for a Kenya Electronic Travel Authorization (eTA) online before arrival — requirements and fees can change, so always check the official Kenyan immigration site or your nearest Kenyan embassy directly before booking flights.",
-        "Have your passport (valid 6+ months beyond travel dates), a return ticket, and accommodation details ready when applying.",
-        "We're happy to point you to the current official application portal once your trip is confirmed — get in touch and we'll include entry-requirement guidance with your itinerary.",
+        "Almost everyone needs to apply for Kenya's Electronic Travel Authorization (eTA) online before they fly. Rules and fees shift from time to time, so check the official Kenyan immigration site, or call your nearest Kenyan embassy, before you book anything.",
+        "You'll need your passport valid for at least 6 months past your travel dates, a return ticket, and your accommodation details when you fill out the application.",
+        "Once your trip is confirmed, we'll point you to the current official application portal and add entry-requirement notes to your itinerary. Just get in touch.",
       ],
       cs: [
         "Většina návštěvníků musí před příjezdem online požádat o keňské elektronické cestovní povolení (eTA) — požadavky a poplatky se mohou měnit, proto si vždy před rezervací letenek ověřte aktuální informace na oficiálních stránkách keňské imigrace nebo u nejbližšího keňského velvyslanectví.",

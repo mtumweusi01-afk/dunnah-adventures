@@ -24,7 +24,7 @@ const pricingTiers: PricingTier[] = [
       no: "per person / dag",
     },
     note: {
-      en: "Shared group camping safaris with a mobile crew.",
+      en: "Camping safaris shared with other travellers, mobile crew included.",
       cs: "Skupinové kempová safari se sdíleným týmem.",
       pl: "Grupowe safari kempingowe z mobilną ekipą.",
       sk: "Skupinové kempingové safari s mobilným tímom.",
@@ -52,7 +52,7 @@ const pricingTiers: PricingTier[] = [
       no: "per person / dag",
     },
     note: {
-      en: "Comfortable lodges and permanent tented camps.",
+      en: "Proper lodges and permanent tented camps, a step up from camping.",
       cs: "Pohodlné lodge a stálé stanové kempy.",
       pl: "Komfortowe lodge i stałe obozy namiotowe.",
       sk: "Pohodlné lodge a stále stanové tábory.",
@@ -80,7 +80,7 @@ const pricingTiers: PricingTier[] = [
       no: "per person / natt",
     },
     note: {
-      en: "Premium camps with full-board dining and private guiding.",
+      en: "Top-tier camps with full board and a private guide.",
       cs: "Prémiové kempy s plnou penzí a soukromým průvodcem.",
       pl: "Luksusowe obozy z pełnym wyżywieniem i prywatnym przewodnikiem.",
       sk: "Prémiové tábory s plnou penziou a súkromným sprievodcom.",
