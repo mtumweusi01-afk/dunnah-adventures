@@ -17,11 +17,6 @@ const pl: Dictionary = {
     readMore: "Czytaj więcej",
     learnMore: "Dowiedz się więcej",
     inquireNow: "Zapytaj o ofertę",
-    from: "Od",
-    perPerson: "za osobę",
-    perDay: "za osobę / dzień",
-    perNight: "za osobę / noc",
-    indicativePricing: "Cena orientacyjna — poproś o indywidualną wycenę",
     groupSize: "Wielkość grupy",
     duration: "Czas trwania",
     viewAll: "Zobacz wszystkie",
@@ -89,7 +84,6 @@ const pl: Dictionary = {
     intro: [
       "Dunnah Adventures to kenijski organizator wycieczek zbudowany wokół jednej idei: safari powinno być osobiste, a nie z gotowego pakietu. Mamy siedzibę w Malindi, na kenijskim wybrzeżu — dlatego wypoczynek nad morzem naturalnie łączy się z naszymi safari w głębi lądu, zamiast być jedynie dodatkiem.",
       "Firmę założył w 2019 roku Dunnah, od którego pochodzi jej nazwa. Inspiracją był jego ojciec, który prowadził biuro podróży Mavusho — dziedzictwo, które Dunnah kontynuuje na swój sposób, budując firmę zakorzenioną w tym samym nadmorskim domu.",
-      "Dziś to dziedzictwo to sprawa rodzinna. Dunnah prowadzi Dunnah Adventures razem ze swoimi starszymi braćmi, kontynuując to, co zaczął ich ojciec, i przekazując to nowemu pokoleniu podróżników.",
     ],
     missionTitle: "Nasza misja",
     missionText:
@@ -109,8 +103,7 @@ const pl: Dictionary = {
         desc: "Doświadczeni kierowcy, dobrze utrzymane pojazdy i zweryfikowane obozy partnerskie.",
       },
     ],
-    licensingNote:
-      "[Tekst zastępczy — dodaj dane licencyjne / członkostwo w stowarzyszeniu, np. numer członkowski KATO, gdy będą dostępne.]",
+    licensingNote: "",
   },
   tours: {
     eyebrow: "Wycieczki i pakiety",
@@ -120,7 +113,8 @@ const pl: Dictionary = {
     itineraryTitle: "Sugerowany plan podróży",
     includedTitle: "Wielkość grupy",
     inquireAboutThis: "Zapytaj o tę wycieczkę",
-    typicalCostsTitle: "Typowe koszty safari",
+    inquireTitle: "Zapytaj o cenę",
+    inquireText: "Każdą podróż wyceniamy indywidualnie. Napisz do nas, a szybko podamy konkretną cenę.",
   },
   destinations: {
     eyebrow: "Dokąd pojedziesz",

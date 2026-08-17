@@ -17,11 +17,6 @@ const da: Dictionary = {
     readMore: "Læs mere",
     learnMore: "Lær mere",
     inquireNow: "Forespørg nu",
-    from: "Fra",
-    perPerson: "pr. person",
-    perDay: "pr. person / dag",
-    perNight: "pr. person / nat",
-    indicativePricing: "Vejledende priser — anmod om et personligt tilbud",
     groupSize: "Gruppestørrelse",
     duration: "Varighed",
     viewAll: "Se alle",
@@ -93,7 +88,6 @@ const da: Dictionary = {
     intro: [
       "Dunnah Adventures er et kenyansk rejsebureau bygget omkring én idé: safarier skal føles personlige, ikke pakkede. Vi har base i Malindi på den kenyanske kyst — derfor er strandophold en naturlig del af vores safari i indlandet, ikke bare en ekstra tilføjelse.",
       "Virksomheden blev grundlagt i 2019 af Dunnah, som den er opkaldt efter. Inspirationen kom fra hans far, der drev et rejsebureau ved navn Mavusho — en arv, som Dunnah har ført videre på sin egen måde ved at bygge en virksomhed forankret i det samme kysthjem.",
-      "I dag er den arv en familiesag. Dunnah leder Dunnah Adventures sammen med sine ældre brødre, viderefører det, deres far startede, og bringer det videre til en ny generation af rejsende.",
     ],
     missionTitle: "Vores mission",
     missionText:
@@ -113,8 +107,7 @@ const da: Dictionary = {
         desc: "Erfarne chauffører, velholdte køretøjer og grundigt udvalgte samarbejdslejre.",
       },
     ],
-    licensingNote:
-      "[Placeholder — tilføj licens-/medlemsoplysninger her, f.eks. KATO-medlemsnummer, når det foreligger.]",
+    licensingNote: "",
   },
   tours: {
     eyebrow: "Ture & pakker",
@@ -124,7 +117,8 @@ const da: Dictionary = {
     itineraryTitle: "Foreslået rejseplan",
     includedTitle: "Gruppestørrelse",
     inquireAboutThis: "Forespørg om denne tur",
-    typicalCostsTitle: "Typiske safariomkostninger",
+    inquireTitle: "Spørg om prisen",
+    inquireText: "Hver rejse prissættes individuelt. Skriv til os, så får du hurtigt et konkret tilbud.",
   },
   destinations: {
     eyebrow: "Hvor du skal hen",

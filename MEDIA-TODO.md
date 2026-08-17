@@ -36,11 +36,17 @@ from working today — it's all placeholder-but-functional.
 
 ## Pricing
 
-- [ ] All prices in [src/data/tours.ts](src/data/tours.ts) and
-      [src/data/pricing.ts](src/data/pricing.ts) are **indicative
-      placeholders** seeded from public competitor research (SafariBookings,
-      SafariFind, AJ Kenya Safaris, Porini/Gamewatchers, Kenya Luxury
-      Safari — 2025/2026 rates). Replace with your real rate card.
+- [x] **Prices removed from the site entirely.** No page shows a price,
+      currency toggle, or cost tier anymore — every spot that used to show
+      a number now shows an "inquire" widget with WhatsApp/Instagram/
+      Facebook/Email icon buttons instead
+      ([src/components/ui/InquireIcons.tsx](src/components/ui/InquireIcons.tsx)).
+      The underlying `priceFromEUR` figures in
+      [src/data/tours.ts](src/data/tours.ts) are still there but unused by
+      any page — harmless to leave, or delete later if you're sure pricing
+      won't come back. `src/data/pricing.ts` and the currency-switcher code
+      (`lib/currency.tsx`, `PriceTag`, `CurrencyToggle`) were deleted
+      outright since nothing referenced them anymore.
 
 ## Photos & video
 
@@ -66,19 +72,23 @@ from working today — it's all placeholder-but-functional.
       and `pl.ts`. Still recommend a native-speaker pass before heavy
       marketing spend in those markets.
 - [ ] **Czech/Polish copy in the data files** (`src/data/tours.ts`,
-      `destinations.ts`, `blog.ts`, `pricing.ts`) hasn't had that same
-      review pass yet — still as originally AI-translated.
+      `destinations.ts`, `blog.ts`) hasn't had that same review pass yet —
+      still as originally AI-translated.
 - [ ] **Slovak, Danish, and Norwegian are new languages** added throughout
       `src/i18n/dictionaries/sk.ts` / `da.ts` / `no.ts` and every localized
       field in `src/data/*.ts`. All AI-translated for launch — same
       native-speaker review recommendation applies before marketing spend
       in those markets.
+- [x] **English copy rewritten for voice** — UI strings, tours,
+      destinations, and blog/pricing-note text no longer read as
+      AI-generated (cut heavy em-dash use, repeated "X, not Y" phrasing,
+      and templated sentence structures). The other 5 languages still
+      reflect the earlier wording pending the same pass.
 - [x] **About page story** (`src/i18n/dictionaries/*.ts` → `about.intro`) —
       real founding story in place across all 6 languages: founded 2019 in
-      Malindi by Dunnah, inspired by his father's tourism company Mavusho,
-      now run alongside his elder brothers.
-- [ ] Licensing/KATO membership note (`about.licensingNote`) is empty —
-      fill in once available.
+      Malindi by Dunnah, inspired by his father's tourism company Mavusho.
+- [ ] Licensing/KATO membership note (`about.licensingNote`) is empty for
+      now (blank, not shown on the page) — fill in once available.
 - [ ] Testimonials on the homepage are placeholders — replace with real
       guest reviews.
 

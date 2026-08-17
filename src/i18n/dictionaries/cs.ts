@@ -17,11 +17,6 @@ const cs: Dictionary = {
     readMore: "Číst více",
     learnMore: "Zjistit více",
     inquireNow: "Nezávazná poptávka",
-    from: "Od",
-    perPerson: "za osobu",
-    perDay: "za osobu / den",
-    perNight: "za osobu / noc",
-    indicativePricing: "Orientační ceny — vyžádejte si individuální nabídku",
     groupSize: "Velikost skupiny",
     duration: "Délka",
     viewAll: "Zobrazit vše",
@@ -89,7 +84,6 @@ const cs: Dictionary = {
     intro: [
       "Dunnah Adventures je keňská cestovní kancelář postavená na jedné myšlence: safari by mělo být osobní, ne katalogové. Sídlíme v Malindi na keňském pobřeží — proto jsou pobyty u moře přirozenou součástí naší nabídky vedle safari ve vnitrozemí, ne jen doplňkem.",
       "Společnost založil v roce 2019 Dunnah, po kterém nese své jméno. Inspirací mu byl jeho otec, který vedl cestovní kancelář Mavusho — odkaz, který Dunnah po svém rozvíjí dál a buduje firmu zakotvenou ve stejném pobřežním domově.",
-      "Dnes je tento odkaz rodinnou záležitostí. Dunnah vede Dunnah Adventures společně se svými staršími bratry a pokračuje v tom, co začal jejich otec, a předává to nové generaci cestovatelů.",
     ],
     missionTitle: "Naše poslání",
     missionText:
@@ -109,8 +103,7 @@ const cs: Dictionary = {
         desc: "Zkušení řidiči, dobře udržovaná vozidla a prověření partnerští provozovatelé kempů.",
       },
     ],
-    licensingNote:
-      "[Zástupný text — doplňte licenční údaje / členství v asociaci, např. číslo členství KATO, jakmile bude k dispozici.]",
+    licensingNote: "",
   },
   tours: {
     eyebrow: "Zájezdy a balíčky",
@@ -120,7 +113,8 @@ const cs: Dictionary = {
     itineraryTitle: "Doporučený itinerář",
     includedTitle: "Velikost skupiny",
     inquireAboutThis: "Poptat tento zájezd",
-    typicalCostsTitle: "Obvyklé náklady na safari",
+    inquireTitle: "Zeptejte se na cenu",
+    inquireText: "Každou cestu oceňujeme individuálně. Ozvěte se nám a rychle vám dáme reálnou cenu.",
   },
   destinations: {
     eyebrow: "Kam pojedete",

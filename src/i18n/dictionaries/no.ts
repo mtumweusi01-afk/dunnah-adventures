@@ -17,11 +17,6 @@ const no: Dictionary = {
     readMore: "Les mer",
     learnMore: "Finn ut mer",
     inquireNow: "Send forespørsel",
-    from: "Fra",
-    perPerson: "per person",
-    perDay: "per person / dag",
-    perNight: "per person / natt",
-    indicativePricing: "Veiledende priser — be om et personlig tilbud",
     groupSize: "Gruppestørrelse",
     duration: "Varighet",
     viewAll: "Se alle",
@@ -93,7 +88,6 @@ const no: Dictionary = {
     intro: [
       "Dunnah Adventures er et kenyansk reiseselskap bygget på én tanke: safarier skal føles personlige, ikke masseproduserte. Vi holder til i Malindi på den kenyanske kysten — derfor er strandopphold en naturlig del av safariene våre i innlandet, ikke bare et tillegg.",
       "Selskapet ble grunnlagt i 2019 av Dunnah, som det er oppkalt etter. Inspirasjonen kom fra faren hans, som drev et reiseselskap ved navn Mavusho — en arv Dunnah har ført videre på sin egen måte, ved å bygge en virksomhet forankret i det samme kysthjemmet.",
-      "I dag er denne arven en familiesak. Dunnah leder Dunnah Adventures sammen med sine eldre brødre, viderefører det faren deres startet, og bringer det videre til en ny generasjon reisende.",
     ],
     missionTitle: "Vårt oppdrag",
     missionText:
@@ -113,8 +107,7 @@ const no: Dictionary = {
         desc: "Erfarne sjåfører, godt vedlikeholdte kjøretøy og nøye utvalgte partnerleirer.",
       },
     ],
-    licensingNote:
-      "[Placeholder — legg til lisens-/medlemsdetaljer her, f.eks. KATO-medlemsnummer, når tilgjengelig.]",
+    licensingNote: "",
   },
   tours: {
     eyebrow: "Turer og pakker",
@@ -124,7 +117,8 @@ const no: Dictionary = {
     itineraryTitle: "Foreslått reiserute",
     includedTitle: "Gruppestørrelse",
     inquireAboutThis: "Spør om denne turen",
-    typicalCostsTitle: "Typiske safarikostnader",
+    inquireTitle: "Spør om prisen",
+    inquireText: "Hver reise prissettes individuelt. Ta kontakt, så får du raskt et konkret tilbud.",
   },
   destinations: {
     eyebrow: "Hvor du skal dra",

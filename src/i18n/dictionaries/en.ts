@@ -15,11 +15,6 @@ const en: Dictionary = {
     readMore: "Read more",
     learnMore: "Learn more",
     inquireNow: "Inquire now",
-    from: "From",
-    perPerson: "per person",
-    perDay: "per person / day",
-    perNight: "per person / night",
-    indicativePricing: "Indicative pricing. Get in touch for a personalised quote",
     groupSize: "Group size",
     duration: "Duration",
     viewAll: "View all",
@@ -90,7 +85,6 @@ const en: Dictionary = {
     intro: [
       "Dunnah Adventures is a small, Kenya-based tour operator built on a simple idea: a safari works best when it's planned by people you can actually talk to. We're based in Malindi on the Kenyan coast, so beach time and wildlife safaris sit side by side for us quite naturally — it's just how travel looks when you grow up here.",
       "Dunnah founded the company in 2019, and it carries his name. His father ran a tourism company called Mavusho, and that's really where the idea came from — Dunnah took what he learned growing up around that business and built something of his own on the same stretch of coast.",
-      "These days it's a family business in the fullest sense. Dunnah runs it together with his elder brothers, picking up where their father left off.",
     ],
     missionTitle: "Our mission",
     missionText:
@@ -110,8 +104,7 @@ const en: Dictionary = {
         desc: "Experienced drivers, vehicles that are properly maintained, and camps we trust.",
       },
     ],
-    licensingNote:
-      "[Placeholder — add licensing/association details here, e.g. KATO membership number, once available.]",
+    licensingNote: "",
   },
   tours: {
     eyebrow: "Tours & packages",
@@ -121,7 +114,8 @@ const en: Dictionary = {
     itineraryTitle: "Suggested itinerary",
     includedTitle: "Group size",
     inquireAboutThis: "Inquire about this tour",
-    typicalCostsTitle: "Typical safari costs",
+    inquireTitle: "Ask about pricing",
+    inquireText: "Every trip is quoted individually. Reach out and we'll get you a real number, fast.",
   },
   destinations: {
     eyebrow: "Where you'll go",

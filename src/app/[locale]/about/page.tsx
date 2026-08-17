@@ -54,9 +54,11 @@ export default async function AboutPage({
         ))}
       </div>
 
-      <p className="mt-12 text-sm text-text-muted italic border-l-2 border-brand-accent pl-4">
-        {about.licensingNote}
-      </p>
+      {about.licensingNote && (
+        <p className="mt-12 text-sm text-text-muted italic border-l-2 border-brand-accent pl-4">
+          {about.licensingNote}
+        </p>
+      )}
     </Container>
   );
 }

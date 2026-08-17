@@ -17,11 +17,6 @@ const sk: Dictionary = {
     readMore: "Čítať viac",
     learnMore: "Zistiť viac",
     inquireNow: "Nezáväzný dopyt",
-    from: "Od",
-    perPerson: "za osobu",
-    perDay: "za osobu / deň",
-    perNight: "za osobu / noc",
-    indicativePricing: "Orientačné ceny — vyžiadajte si individuálnu ponuku",
     groupSize: "Veľkosť skupiny",
     duration: "Dĺžka trvania",
     viewAll: "Zobraziť všetko",
@@ -93,7 +88,6 @@ const sk: Dictionary = {
     intro: [
       "Dunnah Adventures je keňská cestovná kancelária postavená na jednej myšlienke: safari by malo pôsobiť osobne, nie ako balíček z katalógu. Sídlime v Malindi na keňskom pobreží — preto sú pobyty pri mori prirodzenou súčasťou našej ponuky popri safari vo vnútrozemí, nie len doplnkom.",
       "Spoločnosť založil v roku 2019 Dunnah, po ktorom nesie svoje meno. Inšpiráciou mu bol jeho otec, ktorý viedol cestovnú kanceláriu Mavusho — odkaz, ktorý Dunnah po svojom rozvíja ďalej a buduje firmu zakorenenú v tom istom pobrežnom domove.",
-      "Dnes je tento odkaz rodinnou záležitosťou. Dunnah vedie Dunnah Adventures spolu so svojimi staršími bratmi, pokračuje v tom, čo začal ich otec, a odovzdáva to novej generácii cestovateľov.",
     ],
     missionTitle: "Naše poslanie",
     missionText:
@@ -113,8 +107,7 @@ const sk: Dictionary = {
         desc: "Skúsení vodiči, dobre udržiavané vozidlá a preverení partnerskí prevádzkovatelia kempov.",
       },
     ],
-    licensingNote:
-      "[Zástupný text — po dostupnosti doplňte licenčné údaje / členstvo v asociácii, napr. číslo členstva KATO.]",
+    licensingNote: "",
   },
   tours: {
     eyebrow: "Zájazdy a balíčky",
@@ -124,7 +117,8 @@ const sk: Dictionary = {
     itineraryTitle: "Odporúčaný itinerár",
     includedTitle: "Veľkosť skupiny",
     inquireAboutThis: "Dopytovať tento zájazd",
-    typicalCostsTitle: "Typické náklady na safari",
+    inquireTitle: "Opýtajte sa na cenu",
+    inquireText: "Každý zájazd oceňujeme individuálne. Napíšte nám a rýchlo vám dáme reálnu cenu.",
   },
   destinations: {
     eyebrow: "Kam sa vyberiete",

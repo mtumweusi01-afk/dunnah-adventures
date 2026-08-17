@@ -2,8 +2,8 @@ import { LOCALES, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { Container } from "@/components/ui/Container";
 import { TourCard } from "@/components/ui/TourCard";
+import { InquireIcons } from "@/components/ui/InquireIcons";
 import tours from "@/data/tours";
-import pricingTiers from "@/data/pricing";
 
 export async function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -30,21 +30,12 @@ export default async function ToursPage({
         ))}
       </div>
 
-      <div className="rounded-2xl border border-border bg-surface-muted p-8">
-        <h2 className="font-serif text-2xl font-semibold mb-1">{dict.tours.typicalCostsTitle}</h2>
-        <p className="text-sm text-text-muted mb-6">{dict.common.indicativePricing}</p>
-        <div className="grid gap-4 sm:grid-cols-3">
-          {pricingTiers.map((tier) => (
-            <div key={tier.key} className="rounded-xl bg-surface border border-border p-5">
-              <h3 className="font-semibold text-foreground mb-1">{tier.label[loc]}</h3>
-              <p className="text-2xl font-serif font-semibold text-brand-primary mb-1">
-                €{tier.rangeEUR}
-              </p>
-              <p className="text-xs text-text-muted mb-3">{tier.unit[loc]}</p>
-              <p className="text-sm text-text-secondary">{tier.note[loc]}</p>
-            </div>
-          ))}
+      <div className="rounded-2xl border border-border bg-surface-muted p-8 flex flex-col items-start gap-4">
+        <div>
+          <h2 className="font-serif text-2xl font-semibold mb-1">{dict.tours.inquireTitle}</h2>
+          <p className="text-sm text-text-secondary max-w-md">{dict.tours.inquireText}</p>
         </div>
+        <InquireIcons />
       </div>
     </Container>
   );

@@ -6,7 +6,6 @@ import { LinkButton } from "@/components/ui/Button";
 import { NAV_LINKS } from "./nav-links";
 import { Logo } from "./Logo";
 import { LocaleSwitcher } from "./LocaleSwitcher";
-import { CurrencyToggle } from "./CurrencyToggle";
 import { MobileNav } from "./MobileNav";
 
 export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -20,7 +19,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <Link
               key={link.key}
               href={`/${locale}/${link.path}`}
-              className="rounded-full px-4 py-2 text-sm font-medium text-text-secondary transition-colors hover:bg-surface-muted hover:text-foreground"
+              className="whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium text-text-secondary transition-colors hover:bg-surface-muted hover:text-foreground"
             >
               {dict.nav[link.key]}
             </Link>
@@ -29,8 +28,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
         <div className="hidden lg:flex items-center gap-3">
           <LocaleSwitcher locale={locale} />
-          <CurrencyToggle />
-          <LinkButton href={`/${locale}/contact`} variant="primary" size="sm">
+          <LinkButton href={`/${locale}/contact`} variant="primary" size="sm" className="whitespace-nowrap">
             {dict.nav.bookNow}
           </LinkButton>
         </div>

@@ -4,7 +4,7 @@ import { LOCALES, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { Container } from "@/components/ui/Container";
 import { LinkButton } from "@/components/ui/Button";
-import { PriceTag } from "@/components/ui/PriceTag";
+import { InquireIcons } from "@/components/ui/InquireIcons";
 import { DestinationCard } from "@/components/ui/DestinationCard";
 import tours, { getTour } from "@/data/tours";
 import destinations from "@/data/destinations";
@@ -24,13 +24,6 @@ export default async function TourDetailPage({
   const dict = getDictionary(loc);
   const tour = getTour(slug);
   if (!tour) notFound();
-
-  const unitLabel =
-    tour.priceUnit === "day"
-      ? dict.common.perDay
-      : tour.priceUnit === "night"
-        ? dict.common.perNight
-        : dict.common.perPerson;
 
   const relatedDestinations = destinations.filter((d) =>
     tour.destinationSlugs.includes(d.slug)
@@ -93,13 +86,12 @@ export default async function TourDetailPage({
         </div>
 
         <aside className="lg:sticky lg:top-24 h-fit rounded-2xl border border-border bg-surface-muted p-6 flex flex-col gap-4">
-          <PriceTag
-            priceFromEUR={tour.priceFromEUR}
-            unitLabel={unitLabel}
-            fromLabel={dict.common.from}
-            className="text-xl"
-          />
-          <p className="text-xs text-text-muted -mt-2">{dict.common.indicativePricing}</p>
+          <div>
+            <p className="text-sm font-semibold text-foreground mb-2">
+              {dict.tours.inquireTitle}
+            </p>
+            <InquireIcons context={tour.title[loc]} />
+          </div>
 
           <dl className="flex flex-col gap-2 text-sm">
             <div className="flex justify-between">

@@ -13,11 +13,6 @@ export type Dictionary = {
     readMore: string;
     learnMore: string;
     inquireNow: string;
-    from: string;
-    perPerson: string;
-    perDay: string;
-    perNight: string;
-    indicativePricing: string;
     groupSize: string;
     duration: string;
     viewAll: string;
@@ -62,7 +57,8 @@ export type Dictionary = {
     itineraryTitle: string;
     includedTitle: string;
     inquireAboutThis: string;
-    typicalCostsTitle: string;
+    inquireTitle: string;
+    inquireText: string;
   };
   destinations: {
     eyebrow: string;

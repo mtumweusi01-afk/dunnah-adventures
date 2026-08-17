@@ -4,7 +4,7 @@ import type { Tour } from "@/data/types";
 import type { Dictionary } from "@/i18n/dictionary-type";
 import type { Locale } from "@/i18n/config";
 import { Card } from "@/components/ui/Card";
-import { PriceTag } from "@/components/ui/PriceTag";
+import { InquireIcons } from "@/components/ui/InquireIcons";
 import { CATEGORY_LABELS } from "@/data/categories";
 
 export function TourCard({
@@ -16,13 +16,6 @@ export function TourCard({
   locale: Locale;
   dict: Dictionary;
 }) {
-  const unitLabel =
-    tour.priceUnit === "day"
-      ? dict.common.perDay
-      : tour.priceUnit === "night"
-        ? dict.common.perNight
-        : dict.common.perPerson;
-
   return (
     <Card>
       <Link href={`/${locale}/tours/${tour.slug}`} className="block">
@@ -38,7 +31,7 @@ export function TourCard({
             {CATEGORY_LABELS[tour.category][locale]}
           </span>
         </div>
-        <div className="p-5 flex flex-col gap-2">
+        <div className="p-5 pb-3 flex flex-col gap-2">
           <h3 className="font-serif text-lg font-semibold text-foreground">
             {tour.title[locale]}
           </h3>
@@ -49,14 +42,11 @@ export function TourCard({
             </span>
             <span>{tour.groupSize}</span>
           </div>
-          <PriceTag
-            priceFromEUR={tour.priceFromEUR}
-            unitLabel={unitLabel}
-            fromLabel={dict.common.from}
-            className="pt-1"
-          />
         </div>
       </Link>
+      <div className="px-5 pb-5 pt-1">
+        <InquireIcons context={tour.title[locale]} size="sm" />
+      </div>
     </Card>
   );
 }

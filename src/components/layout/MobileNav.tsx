@@ -7,7 +7,6 @@ import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionary-type";
 import { NAV_LINKS } from "./nav-links";
 import { LocaleSwitcher } from "./LocaleSwitcher";
-import { CurrencyToggle } from "./CurrencyToggle";
 import { LinkButton } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
@@ -51,7 +50,6 @@ export function MobileNav({ locale, dict }: { locale: Locale; dict: Dictionary }
         <div className="mt-auto flex flex-col gap-4">
           <div className="flex items-center gap-3">
             <LocaleSwitcher locale={locale} />
-            <CurrencyToggle />
           </div>
           <LinkButton href={`/${locale}/contact`} variant="primary" onClick={() => setOpen(false)}>
             {dict.nav.bookNow}
