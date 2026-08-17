@@ -136,6 +136,7 @@ const sk: Dictionary = {
     eyebrow: "Galéria",
     title: "Fotografie a video galéria",
     subtitle: "Ochutnávka toho, čo na vás v Keni čaká.",
+    experienceTitle: "Na safari s našimi hosťami",
     videoTitle: "Keňa v pohybe",
     videoText: "Krátky pohľad na krajinu a divokú prírodu, ktorá na vás čaká.",
   },

@@ -1,14 +1,15 @@
 export const SITE_URL = "https://dunnahadventures.com";
 export const SITE_NAME = "Dunnah Adventures";
 
-// TODO(owner): Instagram/TikTok URLs and office address are still
-// placeholders — see MEDIA-TODO.md.
+// TODO(owner): TikTok URL and office address are still placeholders —
+// see MEDIA-TODO.md.
 export const CONTACT = {
   phone: "+254 707 099 579",
   phoneHref: "tel:+254707099579",
   whatsappNumber: "254707099579", // digits only, no leading +
   email: "dunnahadventures@gmail.com",
-  instagram: "https://instagram.com/dunnahadventures",
+  instagram: "https://www.instagram.com/dunnahadventures?igsh=d3Y0YWxmdWVyZnBi",
+  facebook: "https://www.facebook.com/share/14r6Psp6Ews/",
   tiktok: "https://tiktok.com/@dunnahadventures",
   address: "Nairobi, Kenya",
 };

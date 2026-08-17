@@ -136,6 +136,7 @@ const no: Dictionary = {
     eyebrow: "Galleri",
     title: "Bilde- og videogalleri",
     subtitle: "Et glimt av det som venter deg i Kenya.",
+    experienceTitle: "På safari med våre gjester",
     videoTitle: "Se Kenya i bevegelse",
     videoText: "Et raskt innblikk i landskapene og dyrelivet som venter deg.",
   },

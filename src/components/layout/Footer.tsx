@@ -25,6 +25,14 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
               Instagram
             </a>
             <a
+              href={CONTACT.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-text-secondary hover:text-brand-primary"
+            >
+              Facebook
+            </a>
+            <a
               href={CONTACT.tiktok}
               target="_blank"
               rel="noopener noreferrer"

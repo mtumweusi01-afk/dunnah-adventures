@@ -3,7 +3,7 @@ import type { Destination } from "./types";
 const destinations: Destination[] = [
   {
     slug: "maasai-mara",
-    image: "/images/destinations/maasai-mara.jpg",
+    image: "/images/gallery/mara-lion-pride.jpg",
     title: { en: "Maasai Mara", cs: "Masai Mara", pl: "Masajska Mara", sk: "Masajská Mara", da: "Maasai Mara", no: "Maasai Mara" },
     summary: {
       en: "Kenya's most famous reserve — endless plains, big cats and the Great Migration.",
@@ -121,7 +121,7 @@ const destinations: Destination[] = [
   },
   {
     slug: "tsavo",
-    image: "/images/destinations/tsavo.jpg",
+    image: "/images/gallery/tsavo-big-tusker.jpg",
     title: { en: "Tsavo East & West", cs: "Tsavo Východ a Západ", pl: "Tsavo Wschodnie i Zachodnie", sk: "Tsavo Východ a Západ", da: "Tsavo Øst & Vest", no: "Tsavo Øst og Vest" },
     summary: {
       en: "Kenya's largest park system, famous for red-dust elephants and rugged wilderness.",
@@ -180,7 +180,7 @@ const destinations: Destination[] = [
   },
   {
     slug: "lake-nakuru",
-    image: "/images/destinations/lake-nakuru.jpg",
+    image: "/images/gallery/nakuru-rhino.jpg",
     title: { en: "Lake Nakuru", cs: "Jezero Nakuru", pl: "Jezioro Nakuru", sk: "Jazero Nakuru", da: "Nakurusøen", no: "Nakurusjøen" },
     summary: {
       en: "A soda lake famous for flamingo flocks and a dedicated rhino sanctuary.",
