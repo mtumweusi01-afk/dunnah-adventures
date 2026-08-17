@@ -3,7 +3,7 @@ import type { Destination } from "./types";
 const destinations: Destination[] = [
   {
     slug: "maasai-mara",
-    image: "/images/gallery/mara-lion-pride.jpg",
+    image: "/images/destinations/maasai-mara.jpg",
     title: { en: "Maasai Mara", cs: "Masai Mara", pl: "Masajska Mara", sk: "Masajská Mara", da: "Maasai Mara", no: "Maasai Mara" },
     summary: {
       en: "Kenya's most famous reserve — endless plains, big cats and the Great Migration.",

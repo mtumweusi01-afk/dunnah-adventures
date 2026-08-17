@@ -89,8 +89,9 @@ const en: Dictionary = {
     eyebrow: "Our story",
     title: "About Dunnah Adventures",
     intro: [
-      "Dunnah Adventures is a Kenya-based tour operator built around one idea: safaris should feel personal, not packaged.",
-      "[Placeholder — replace with the real founding story: who started Dunnah Adventures, why, and what makes the team's approach to Kenya travel different.]",
+      "Dunnah Adventures is a Kenya-based tour operator built around one idea: safaris should feel personal, not packaged. We're based in Malindi, on the Kenyan coast — which is why beach escapes sit naturally alongside our inland wildlife safaris, rather than as an afterthought.",
+      "The company was founded in 2019 by Dunnah, and takes its name from him. The inspiration came from his father, who ran a tourism company called Mavusho — a legacy Dunnah has carried forward in his own way, building a business rooted in that same coastal home.",
+      "Today, that legacy is a family affair. Dunnah leads Dunnah Adventures alongside his elder brothers, continuing what their father started and carrying it into a new generation of travellers.",
     ],
     missionTitle: "Our mission",
     missionText:

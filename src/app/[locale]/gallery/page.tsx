@@ -12,7 +12,6 @@ const DESTINATION_PHOTOS: Record<string, { src: string; alt: string }[]> = {
   "maasai-mara": [
     { src: "/images/gallery/mara-leopard.jpg", alt: "Leopard resting in the grass, Maasai Mara" },
     { src: "/images/gallery/mara-migration.jpg", alt: "Wildebeest migration herd, Maasai Mara" },
-    { src: "/images/gallery/mara-lion-pride.jpg", alt: "Lion pride walking a dirt track, Maasai Mara" },
     { src: "/images/gallery/mara-cheetah.jpg", alt: "Cheetah portrait, Maasai Mara" },
     { src: "/images/gallery/mara-lion-roar.jpg", alt: "Male lion roaring, Maasai Mara" },
     { src: "/images/gallery/mara-zebra-foal.jpg", alt: "Zebra with jumping foal, Maasai Mara" },

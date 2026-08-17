@@ -11,7 +11,7 @@ export const CONTACT = {
   instagram: "https://www.instagram.com/dunnahadventures?igsh=d3Y0YWxmdWVyZnBi",
   facebook: "https://www.facebook.com/share/14r6Psp6Ews/",
   tiktok: "https://tiktok.com/@dunnahadventures",
-  address: "Nairobi, Kenya",
+  address: "Malindi, Kenya",
 };
 
 export function whatsappLink(message: string): string {

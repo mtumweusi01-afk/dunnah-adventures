@@ -91,8 +91,9 @@ const da: Dictionary = {
     eyebrow: "Vores historie",
     title: "Om Dunnah Adventures",
     intro: [
-      "Dunnah Adventures er et kenyansk rejsebureau bygget omkring én idé: safarier skal føles personlige, ikke pakkede.",
-      "[Placeholder — udskift med den rigtige grundlæggelseshistorie: hvem startede Dunnah Adventures, hvorfor, og hvad der gør teamets tilgang til Kenya-rejser anderledes.]",
+      "Dunnah Adventures er et kenyansk rejsebureau bygget omkring én idé: safarier skal føles personlige, ikke pakkede. Vi har base i Malindi på den kenyanske kyst — derfor er strandophold en naturlig del af vores safari i indlandet, ikke bare en ekstra tilføjelse.",
+      "Virksomheden blev grundlagt i 2019 af Dunnah, som den er opkaldt efter. Inspirationen kom fra hans far, der drev et rejsebureau ved navn Mavusho — en arv, som Dunnah har ført videre på sin egen måde ved at bygge en virksomhed forankret i det samme kysthjem.",
+      "I dag er den arv en familiesag. Dunnah leder Dunnah Adventures sammen med sine ældre brødre, viderefører det, deres far startede, og bringer det videre til en ny generation af rejsende.",
     ],
     missionTitle: "Vores mission",
     missionText:

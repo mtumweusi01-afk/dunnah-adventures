@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { LOCALES, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { Container } from "@/components/ui/Container";
@@ -17,14 +18,25 @@ export default async function AboutPage({
   const { about } = dict;
 
   return (
-    <Container className="py-16 sm:py-20 max-w-3xl">
+    <Container className="py-16 sm:py-20 max-w-5xl">
       <span className="text-sm font-semibold text-brand-primary">{about.eyebrow}</span>
       <h1 className="font-serif text-4xl font-semibold mt-2 mb-8">{about.title}</h1>
 
-      <div className="flex flex-col gap-4 text-lg text-text-secondary leading-relaxed">
-        {about.intro.map((p, i) => (
-          <p key={i}>{p}</p>
-        ))}
+      <div className="grid gap-10 lg:grid-cols-3 lg:items-start">
+        <div className="flex flex-col gap-4 text-lg text-text-secondary leading-relaxed lg:col-span-2">
+          {about.intro.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </div>
+        <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border lg:sticky lg:top-24">
+          <Image
+            src="/images/hero-2.jpg"
+            alt="Dunnah at the Tsavo East National Park gate"
+            fill
+            sizes="(min-width: 1024px) 33vw, 100vw"
+            className="object-cover"
+          />
+        </div>
       </div>
 
       <div className="mt-12 rounded-2xl border border-border bg-surface-muted p-8">

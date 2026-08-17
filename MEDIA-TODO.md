@@ -9,10 +9,11 @@ from working today — it's all placeholder-but-functional.
       from the supplied source: trimmed and background made transparent),
       rendered via `next/image` in
       [src/components/layout/Logo.tsx](src/components/layout/Logo.tsx).
-- [ ] **Hero image** — replace `public/images/hero.jpg` (currently a
-      Wikimedia Commons placeholder, see Photo credits below) with the
-      supplied hero photo. Keep the same filename or update the reference in
-      [src/app/[locale]/page.tsx](<src/app/[locale]/page.tsx>).
+- [ ] **Hero image** — `public/images/hero.jpg` is still a Wikimedia Commons
+      placeholder (see Photo credits below). A real photo (`hero-2.jpg`,
+      a group shot at the Tsavo East gate) has been supplied and is in use
+      on the About page and in the Tsavo gallery section, but the homepage
+      hero background itself hasn't been swapped yet.
 - [ ] **Colour palette** — currently a proposed earth-tone safari palette
       (terracotta / gold / green) in
       [src/app/globals.css](src/app/globals.css). Adjust to match the real
@@ -23,9 +24,10 @@ from working today — it's all placeholder-but-functional.
 - [x] Phone number — +254 707 099 579
 - [x] WhatsApp number — same as phone
 - [x] Email address — dunnahadventures@gmail.com
-- [ ] Instagram URL
+- [x] Instagram URL
+- [x] Facebook URL
 - [ ] TikTok URL
-- [ ] Office address
+- [x] Office address — Malindi, Kenya
 
 ## Forms
 
@@ -42,16 +44,20 @@ from working today — it's all placeholder-but-functional.
 
 ## Photos & video
 
-- [ ] All destination/gallery photos are temporary Wikimedia Commons images
-      (CC BY-SA / CC BY licensed — attribution lives at
-      `/en/photo-credits/` and must stay until every photo is replaced).
-      Replace files under `public/images/destinations/` and
-      `public/images/gallery/` with your own photography, and once none of
-      the Commons images remain, the `/photo-credits/` page and
-      `src/data/photo-credits.ts` can be deleted along with its footer link.
-- [x] Video: `public/videos/hero.mp4` is in use as a player on the Gallery
-      page (homepage hero stays a static photo). Swap in more clips as they
-      arrive from Google Drive.
+- [x] **Gallery restructured** with real client photos/videos, organized by
+      destination (Maasai Mara, Tsavo, Lake Nakuru) plus a guest-experience
+      section and a video showcase — see
+      [src/app/[locale]/gallery/page.tsx](<src/app/[locale]/gallery/page.tsx>).
+      Real photos also swapped in as the Maasai Mara, Tsavo, and Lake Nakuru
+      destination cover images in
+      [src/data/destinations.ts](src/data/destinations.ts).
+- [ ] **Amboseli, Diani Beach, Mount Kenya, and Maasai Culture** still use
+      Wikimedia Commons placeholder photos — no confidently-matching real
+      photo has been supplied for these yet. Same for the 3 original
+      generic gallery placeholders (`savanna-sunset.jpg`, `safari-jeep.jpg`,
+      `safari-lodge.jpg`). Until every Commons image is replaced,
+      `/en/photo-credits/` and `src/data/photo-credits.ts` must stay (and
+      the footer link to it).
 
 ## Content review
 
@@ -67,8 +73,10 @@ from working today — it's all placeholder-but-functional.
       field in `src/data/*.ts`. All AI-translated for launch — same
       native-speaker review recommendation applies before marketing spend
       in those markets.
-- [ ] About page story (`src/i18n/dictionaries/*.ts` → `about.intro`) is a
-      placeholder — replace with the real founding story.
+- [x] **About page story** (`src/i18n/dictionaries/*.ts` → `about.intro`) —
+      real founding story in place across all 6 languages: founded 2019 in
+      Malindi by Dunnah, inspired by his father's tourism company Mavusho,
+      now run alongside his elder brothers.
 - [ ] Licensing/KATO membership note (`about.licensingNote`) is empty —
       fill in once available.
 - [ ] Testimonials on the homepage are placeholders — replace with real
@@ -76,9 +84,7 @@ from working today — it's all placeholder-but-functional.
 
 ## Domain / hosting
 
-- [ ] Add DNS records at Hostinger for `dunnahadventures.com` pointing to
-      GitHub Pages (see the deploy notes from setup, or GitHub's own
-      [custom domain docs](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site)):
-      four `A` records to `185.199.108.153`, `185.199.109.153`,
-      `185.199.110.153`, `185.199.111.153`, plus a `CNAME` for `www` →
-      `mtumweusi01-afk.github.io`.
+- [x] DNS at Hostinger points to GitHub Pages and is live at
+      `dunnahadventures.com`. GitHub Pages source is set to GitHub Actions;
+      `deploy-pages.yml` is the only workflow (the wizard-generated
+      duplicate was removed).

@@ -87,8 +87,9 @@ const pl: Dictionary = {
     eyebrow: "Nasza historia",
     title: "O Dunnah Adventures",
     intro: [
-      "Dunnah Adventures to kenijski organizator wycieczek zbudowany wokół jednej idei: safari powinno być osobiste, a nie z gotowego pakietu.",
-      "[Tekst zastępczy — zastąp prawdziwą historią powstania firmy: kto założył Dunnah Adventures, dlaczego i co wyróżnia podejście zespołu do podróży po Kenii.]",
+      "Dunnah Adventures to kenijski organizator wycieczek zbudowany wokół jednej idei: safari powinno być osobiste, a nie z gotowego pakietu. Mamy siedzibę w Malindi, na kenijskim wybrzeżu — dlatego wypoczynek nad morzem naturalnie łączy się z naszymi safari w głębi lądu, zamiast być jedynie dodatkiem.",
+      "Firmę założył w 2019 roku Dunnah, od którego pochodzi jej nazwa. Inspiracją był jego ojciec, który prowadził biuro podróży Mavusho — dziedzictwo, które Dunnah kontynuuje na swój sposób, budując firmę zakorzenioną w tym samym nadmorskim domu.",
+      "Dziś to dziedzictwo to sprawa rodzinna. Dunnah prowadzi Dunnah Adventures razem ze swoimi starszymi braćmi, kontynuując to, co zaczął ich ojciec, i przekazując to nowemu pokoleniu podróżników.",
     ],
     missionTitle: "Nasza misja",
     missionText:

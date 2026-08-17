@@ -87,8 +87,9 @@ const cs: Dictionary = {
     eyebrow: "Náš příběh",
     title: "O Dunnah Adventures",
     intro: [
-      "Dunnah Adventures je keňská cestovní kancelář postavená na jedné myšlence: safari by mělo být osobní, ne katalogové.",
-      "[Zástupný text — doplňte skutečný příběh vzniku: kdo Dunnah Adventures založil, proč, a čím je přístup týmu ke cestování po Keni jiný.]",
+      "Dunnah Adventures je keňská cestovní kancelář postavená na jedné myšlence: safari by mělo být osobní, ne katalogové. Sídlíme v Malindi na keňském pobřeží — proto jsou pobyty u moře přirozenou součástí naší nabídky vedle safari ve vnitrozemí, ne jen doplňkem.",
+      "Společnost založil v roce 2019 Dunnah, po kterém nese své jméno. Inspirací mu byl jeho otec, který vedl cestovní kancelář Mavusho — odkaz, který Dunnah po svém rozvíjí dál a buduje firmu zakotvenou ve stejném pobřežním domově.",
+      "Dnes je tento odkaz rodinnou záležitostí. Dunnah vede Dunnah Adventures společně se svými staršími bratry a pokračuje v tom, co začal jejich otec, a předává to nové generaci cestovatelů.",
     ],
     missionTitle: "Naše poslání",
     missionText:
