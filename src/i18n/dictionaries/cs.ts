@@ -128,8 +128,7 @@ const cs: Dictionary = {
     title: "Fotografie a videa",
     subtitle: "Ochutnávka toho, co na vás v Keni čeká.",
     experienceTitle: "Na safari s našimi hosty",
-    videoTitle: "Keňa v pohybu",
-    videoText: "Krátký pohled na krajinu a divokou zvěř, která na vás čeká.",
+    videosLabel: "Video",
   },
   blog: {
     eyebrow: "Tipy na cesty",

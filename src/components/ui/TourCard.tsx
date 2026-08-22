@@ -4,7 +4,6 @@ import type { Tour } from "@/data/types";
 import type { Dictionary } from "@/i18n/dictionary-type";
 import type { Locale } from "@/i18n/config";
 import { Card } from "@/components/ui/Card";
-import { InquireIcons } from "@/components/ui/InquireIcons";
 import { CATEGORY_LABELS } from "@/data/categories";
 
 export function TourCard({
@@ -31,7 +30,7 @@ export function TourCard({
             {CATEGORY_LABELS[tour.category][locale]}
           </span>
         </div>
-        <div className="p-5 pb-3 flex flex-col gap-2">
+        <div className="p-5 flex flex-col gap-2">
           <h3 className="font-serif text-lg font-semibold text-foreground">
             {tour.title[locale]}
           </h3>
@@ -44,9 +43,6 @@ export function TourCard({
           </div>
         </div>
       </Link>
-      <div className="px-5 pb-5 pt-1">
-        <InquireIcons context={tour.title[locale]} size="sm" />
-      </div>
     </Card>
   );
 }

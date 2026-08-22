@@ -62,7 +62,7 @@ const destinations: Destination[] = [
   },
   {
     slug: "amboseli",
-    image: "/images/destinations/amboseli.jpg",
+    image: "/images/gallery/amboseli-gate.jpg",
     title: { en: "Amboseli National Park", cs: "Národní park Amboseli", pl: "Park Narodowy Amboseli", sk: "Národný park Amboseli", da: "Amboseli Nationalpark", no: "Amboseli nasjonalpark" },
     summary: {
       en: "Elephant herds roam right out in the open here, with Kilimanjaro's snow-capped peak rising behind them on a clear morning. It's one of the most photographed views in the country.",

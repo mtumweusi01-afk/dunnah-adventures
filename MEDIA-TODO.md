@@ -51,19 +51,48 @@ from working today — it's all placeholder-but-functional.
 ## Photos & video
 
 - [x] **Gallery restructured** with real client photos/videos, organized by
-      destination (Maasai Mara, Tsavo, Lake Nakuru) plus a guest-experience
-      section and a video showcase — see
+      destination (Maasai Mara, Amboseli, Tsavo, Lake Nakuru) plus a
+      guest-experience section — see
       [src/app/[locale]/gallery/page.tsx](<src/app/[locale]/gallery/page.tsx>).
-      Real photos also swapped in as the Maasai Mara, Tsavo, and Lake Nakuru
-      destination cover images in
+      Real photos also swapped in as the Maasai Mara, Amboseli, Tsavo, and
+      Lake Nakuru destination cover images in
       [src/data/destinations.ts](src/data/destinations.ts).
-- [ ] **Amboseli, Diani Beach, Mount Kenya, and Maasai Culture** still use
-      Wikimedia Commons placeholder photos — no confidently-matching real
-      photo has been supplied for these yet. Same for the 3 original
-      generic gallery placeholders (`savanna-sunset.jpg`, `safari-jeep.jpg`,
+- [x] **Videos broken down per destination** (Maasai Mara, Amboseli, Tsavo,
+      Maasai Culture each get their own video grid under their photos, plus
+      a small Guest Experience video grid) instead of one flat list — 29
+      videos total.
+- [ ] **Diani Beach, Mount Kenya, and Maasai Culture** still use Wikimedia
+      Commons placeholder photos — no confidently-matching real photo has
+      been supplied for these yet. Same for the 3 original generic gallery
+      placeholders (`savanna-sunset.jpg`, `safari-jeep.jpg`,
       `safari-lodge.jpg`). Until every Commons image is replaced,
       `/en/photo-credits/` and `src/data/photo-credits.ts` must stay (and
       the footer link to it).
+- [!] **`tsavo-lion-hunt.jpg` / `tsavo-lion-hunt.mp4`** show a real lioness
+      feeding on a zebra kill, with visible blood — included at the owner's
+      explicit request after being flagged. Worth knowing this is on the
+      public site if that's ever a question from a partner or reviewer.
+
+## Tours catalog
+
+- [x] **Fully rewritten with real tour content**, sourced from a related
+      operator's site (mukasafaris.com) and rewritten in Dunnah's own
+      voice — not copied verbatim. 23 tours total: 13 new multi-day
+      safaris, the original Mount Kenya trek and Maasai culture tours kept
+      as-is, and 8 new day trips (mostly Malindi/Mombasa-area excursions,
+      replacing the old single Nakuru day trip which didn't fit a
+      Malindi-based operator geographically). See
+      [src/data/tours.ts](src/data/tours.ts).
+- [x] **21 real tour photos** downloaded from the same source site and
+      reprocessed (resized/compressed) into `public/images/tours/` — the
+      owner confirmed rights to reuse this site's content and imagery.
+- [ ] Same as above: the new tours' `cs`/`pl`/`sk`/`da`/`no` fields are
+      AI-translated (matching the pattern for the rest of the site), not
+      yet reviewed by a native speaker.
+- [ ] Itineraries are rewritten summaries of the source site's stated
+      itineraries — worth a factual double-check against your actual
+      operational capabilities (lodges named, exact routes, etc.) before
+      publishing pricing or contracts against them.
 
 ## Content review
 

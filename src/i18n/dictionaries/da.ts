@@ -132,8 +132,7 @@ const da: Dictionary = {
     title: "Foto- & Videogalleri",
     subtitle: "Et glimt af, hvad der venter dig i Kenya.",
     experienceTitle: "På safari med vores gæster",
-    videoTitle: "Se Kenya i bevægelse",
-    videoText: "Et hurtigt kig på landskaberne og dyrelivet, der venter på dig.",
+    videosLabel: "Video",
   },
   blog: {
     eyebrow: "Rejsetips",

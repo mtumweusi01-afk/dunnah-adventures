@@ -129,8 +129,7 @@ const en: Dictionary = {
     title: "Photo & Video Gallery",
     subtitle: "A glimpse of what's waiting for you in Kenya.",
     experienceTitle: "On safari with our guests",
-    videoTitle: "See Kenya in motion",
-    videoText: "A short clip of the landscapes and wildlife you'll see out there.",
+    videosLabel: "Video",
   },
   blog: {
     eyebrow: "Travel tips",

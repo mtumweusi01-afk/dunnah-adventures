@@ -27,6 +27,10 @@ const DESTINATION_PHOTOS: Record<string, { src: string; alt: string }[]> = {
     { src: "/images/gallery/mara-secretary-bird.jpg", alt: "Secretary bird in the grass, Maasai Mara" },
     { src: "/images/gallery/mara-border-marker.jpg", alt: "Tanzania border marker on the Mara-Serengeti boundary" },
   ],
+  amboseli: [
+    { src: "/images/gallery/amboseli-gate.jpg", alt: "Guide and travelers at the Amboseli National Park gate" },
+    { src: "/images/gallery/amboseli-sunset.jpg", alt: "Sunset over the road into Amboseli" },
+  ],
   tsavo: [
     { src: "/images/gallery/tsavo-big-tusker.jpg", alt: "Large tusker elephant on a red dirt road, Tsavo" },
     { src: "/images/gallery/tsavo-lion-rock.jpg", alt: "Young lion at the Lion Rock trail sign, Tsavo West" },
@@ -36,11 +40,50 @@ const DESTINATION_PHOTOS: Record<string, { src: string; alt: string }[]> = {
     { src: "/images/gallery/tsavo-guide-giraffe.jpg", alt: "Guide spotting a giraffe from the safari vehicle, Tsavo" },
     { src: "/images/gallery/tsavo-salt-lick-lodge.jpg", alt: "Guests at Salt Lick Safari Lodge, Tsavo" },
     { src: "/images/gallery/tsavo-red-road.jpg", alt: "Guide by the safari vehicle on a red dirt road, Tsavo" },
+    { src: "/images/gallery/tsavo-lion-hunt.jpg", alt: "Lioness with a zebra kill, Tsavo" },
   ],
   "lake-nakuru": [
     { src: "/images/gallery/nakuru-rhino.jpg", alt: "Black rhino in the bush, Lake Nakuru" },
     { src: "/images/gallery/nakuru-pelican.jpg", alt: "Pelican portrait, Lake Nakuru" },
     { src: "/images/gallery/nakuru-stork.jpg", alt: "Yellow-billed stork fishing, Lake Nakuru" },
+  ],
+};
+
+const DESTINATION_VIDEOS: Record<string, { src: string; poster: string; alt: string }[]> = {
+  "maasai-mara": [
+    { src: "/videos/mara-wildebeest-migration.mp4", poster: "/images/video-posters/mara-wildebeest-migration.jpg", alt: "Wildebeest migration herd, Maasai Mara" },
+    { src: "/videos/mara-leopard.mp4", poster: "/images/video-posters/mara-leopard.jpg", alt: "Leopard close-up, Maasai Mara" },
+    { src: "/videos/mara-lion-resting.mp4", poster: "/images/video-posters/mara-lion-resting.jpg", alt: "Male lion resting, Maasai Mara" },
+    { src: "/videos/mara-zebras-golden-hour.mp4", poster: "/images/video-posters/mara-zebras-golden-hour.jpg", alt: "Zebras grazing at golden hour, Maasai Mara" },
+    { src: "/videos/mara-lioness-cub.mp4", poster: "/images/video-posters/mara-lioness-cub.jpg", alt: "Lioness with cub, Maasai Mara" },
+    { src: "/videos/mara-giraffe.mp4", poster: "/images/video-posters/mara-giraffe.jpg", alt: "Giraffe, Maasai Mara" },
+    { src: "/videos/mara-lioness-shade.mp4", poster: "/images/video-posters/mara-lioness-shade.jpg", alt: "Lioness resting in the shade, Maasai Mara" },
+    { src: "/videos/mara-impala-herd.mp4", poster: "/images/video-posters/mara-impala-herd.jpg", alt: "Impala herd, Maasai Mara" },
+    { src: "/videos/mara-lioness-walking.mp4", poster: "/images/video-posters/mara-lioness-walking.jpg", alt: "Lioness walking, Maasai Mara" },
+  ],
+  amboseli: [
+    { src: "/videos/amboseli-kilimanjaro-view.mp4", poster: "/images/video-posters/amboseli-kilimanjaro-view.jpg", alt: "View of Mount Kilimanjaro" },
+    { src: "/videos/amboseli-elephant-closeup.mp4", poster: "/images/video-posters/amboseli-elephant-closeup.jpg", alt: "Elephant close-up, Amboseli" },
+    { src: "/videos/amboseli-elephant-walking.mp4", poster: "/images/video-posters/amboseli-elephant-walking.jpg", alt: "Elephant walking toward camera, Amboseli" },
+    { src: "/videos/amboseli-elephant-feeding.mp4", poster: "/images/video-posters/amboseli-elephant-feeding.jpg", alt: "Elephant feeding, Amboseli" },
+    { src: "/videos/amboseli-zebras-crossing.mp4", poster: "/images/video-posters/amboseli-zebras-crossing.jpg", alt: "Zebras crossing the road, Amboseli" },
+    { src: "/videos/amboseli-elephant-grazing.mp4", poster: "/images/video-posters/amboseli-elephant-grazing.jpg", alt: "Elephant grazing with mountain backdrop, Amboseli" },
+    { src: "/videos/amboseli-elephant-mountain.mp4", poster: "/images/video-posters/amboseli-elephant-mountain.jpg", alt: "Elephant walking with Kilimanjaro in view, Amboseli" },
+    { src: "/videos/amboseli-elephant-goldenhour.mp4", poster: "/images/video-posters/amboseli-elephant-goldenhour.jpg", alt: "Elephant walking at golden hour, Amboseli" },
+  ],
+  tsavo: [
+    { src: "/videos/tsavo-elephant-waterhole.mp4", poster: "/images/video-posters/tsavo-elephant-waterhole.jpg", alt: "Elephant herd at a waterhole, Tsavo" },
+    { src: "/videos/tsavo-elephant-portrait.mp4", poster: "/images/video-posters/tsavo-elephant-portrait.jpg", alt: "Elephant portrait, Tsavo" },
+    { src: "/videos/tsavo-elephant-sunset.mp4", poster: "/images/video-posters/tsavo-elephant-sunset.jpg", alt: "Elephant crossing at sunset, Tsavo" },
+    { src: "/videos/tsavo-elephant-crossing.mp4", poster: "/images/video-posters/tsavo-elephant-crossing.jpg", alt: "Elephant crossing a dirt road, Tsavo" },
+    { src: "/videos/tsavo-lioness-walking.mp4", poster: "/images/video-posters/tsavo-lioness-walking.jpg", alt: "Lioness walking, Tsavo" },
+    { src: "/videos/tsavo-lioness-closeup.mp4", poster: "/images/video-posters/tsavo-lioness-closeup.jpg", alt: "Lioness close-up portrait, Tsavo" },
+    { src: "/videos/tsavo-lionesses-pair.mp4", poster: "/images/video-posters/tsavo-lionesses-pair.jpg", alt: "Two lionesses in the grass, Tsavo" },
+    { src: "/videos/tsavo-lioness-road.mp4", poster: "/images/video-posters/tsavo-lioness-road.jpg", alt: "Lioness resting on a dirt road, Tsavo" },
+    { src: "/videos/tsavo-lion-hunt.mp4", poster: "/images/video-posters/tsavo-lion-hunt.jpg", alt: "Lioness with a zebra kill, Tsavo" },
+  ],
+  "maasai-culture": [
+    { src: "/videos/maasai-village-visit.mp4", poster: "/images/video-posters/maasai-village-visit.jpg", alt: "Visiting a Maasai village" },
   ],
 };
 
@@ -58,25 +101,32 @@ const EXPERIENCE_PHOTOS = [
   { src: "/images/gallery/safari-lodge.jpg", alt: "Modern safari lodge exterior" },
 ];
 
-const VIDEOS = [
-  { src: "/videos/mara-wildebeest-migration.mp4", poster: "/images/video-posters/mara-wildebeest-migration.jpg", alt: "Wildebeest migration herd, Maasai Mara" },
-  { src: "/videos/mara-leopard.mp4", poster: "/images/video-posters/mara-leopard.jpg", alt: "Leopard close-up, Maasai Mara" },
-  { src: "/videos/tsavo-elephant-waterhole.mp4", poster: "/images/video-posters/tsavo-elephant-waterhole.jpg", alt: "Elephant herd at a waterhole, Tsavo" },
-  { src: "/videos/mara-lion-resting.mp4", poster: "/images/video-posters/mara-lion-resting.jpg", alt: "Male lion resting, Maasai Mara" },
-  { src: "/videos/mara-zebras-golden-hour.mp4", poster: "/images/video-posters/mara-zebras-golden-hour.jpg", alt: "Zebras grazing at golden hour, Maasai Mara" },
-  { src: "/videos/mara-lioness-cub.mp4", poster: "/images/video-posters/mara-lioness-cub.jpg", alt: "Lioness with cub, Maasai Mara" },
-  { src: "/videos/tsavo-elephant-portrait.mp4", poster: "/images/video-posters/tsavo-elephant-portrait.jpg", alt: "Elephant portrait, Tsavo" },
-  { src: "/videos/tsavo-elephant-sunset.mp4", poster: "/images/video-posters/tsavo-elephant-sunset.jpg", alt: "Elephant crossing at sunset, Tsavo" },
-  { src: "/videos/maasai-village-visit.mp4", poster: "/images/video-posters/maasai-village-visit.jpg", alt: "Visiting a Maasai village" },
-  { src: "/videos/mara-giraffe.mp4", poster: "/images/video-posters/mara-giraffe.jpg", alt: "Giraffe, Maasai Mara" },
-  { src: "/videos/tsavo-elephant-crossing.mp4", poster: "/images/video-posters/tsavo-elephant-crossing.jpg", alt: "Elephant crossing a dirt road, Tsavo" },
-  { src: "/videos/mara-lioness-shade.mp4", poster: "/images/video-posters/mara-lioness-shade.jpg", alt: "Lioness resting in the shade, Maasai Mara" },
-  { src: "/videos/amboseli-kilimanjaro-view.mp4", poster: "/images/video-posters/amboseli-kilimanjaro-view.jpg", alt: "View of Mount Kilimanjaro" },
-  { src: "/videos/mara-impala-herd.mp4", poster: "/images/video-posters/mara-impala-herd.jpg", alt: "Impala herd, Maasai Mara" },
-  { src: "/videos/mara-lioness-walking.mp4", poster: "/images/video-posters/mara-lioness-walking.jpg", alt: "Lioness walking, Maasai Mara" },
+const EXPERIENCE_VIDEOS = [
   { src: "/videos/experience-boat-sunset.mp4", poster: "/images/video-posters/experience-boat-sunset.jpg", alt: "Boat safari at sunset" },
   { src: "/videos/experience-vehicle-boarding.mp4", poster: "/images/video-posters/experience-vehicle-boarding.jpg", alt: "Guests boarding the safari vehicle" },
 ];
+
+function VideoGrid({ videos, label }: { videos: { src: string; poster: string; alt: string }[]; label: string }) {
+  return (
+    <div className="mt-5">
+      <p className="text-sm font-semibold text-text-muted mb-3">{label}</p>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {videos.map((v) => (
+          <video
+            key={v.src}
+            controls
+            preload="none"
+            poster={v.poster}
+            aria-label={v.alt}
+            className="w-full aspect-video rounded-xl border border-border bg-black object-cover"
+          >
+            <source src={v.src} type="video/mp4" />
+          </video>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default async function GalleryPage({
   params,
@@ -95,36 +145,22 @@ export default async function GalleryPage({
 
       {destinations.map((d) => {
         const photos = DESTINATION_PHOTOS[d.slug] ?? [{ src: d.image, alt: d.title[loc] }];
+        const videos = DESTINATION_VIDEOS[d.slug];
         return (
           <section key={d.slug} className="mb-14">
             <h2 className="font-serif text-2xl font-semibold mb-5">{d.title[loc]}</h2>
             <Lightbox images={photos} />
+            {videos && videos.length > 0 && (
+              <VideoGrid videos={videos} label={dict.gallery.videosLabel} />
+            )}
           </section>
         );
       })}
 
-      <section className="mb-14">
+      <section>
         <h2 className="font-serif text-2xl font-semibold mb-5">{dict.gallery.experienceTitle}</h2>
         <Lightbox images={EXPERIENCE_PHOTOS} />
-      </section>
-
-      <section>
-        <h2 className="font-serif text-2xl font-semibold mb-2">{dict.gallery.videoTitle}</h2>
-        <p className="text-text-secondary max-w-xl mb-6">{dict.gallery.videoText}</p>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {VIDEOS.map((v) => (
-            <video
-              key={v.src}
-              controls
-              preload="none"
-              poster={v.poster}
-              aria-label={v.alt}
-              className="w-full aspect-video rounded-xl border border-border bg-black object-cover"
-            >
-              <source src={v.src} type="video/mp4" />
-            </video>
-          ))}
-        </div>
+        <VideoGrid videos={EXPERIENCE_VIDEOS} label={dict.gallery.videosLabel} />
       </section>
     </Container>
   );

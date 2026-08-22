@@ -128,8 +128,7 @@ const pl: Dictionary = {
     title: "Zdjęcia i filmy",
     subtitle: "Zapowiedź tego, co czeka na Ciebie w Kenii.",
     experienceTitle: "Na safari z naszymi gośćmi",
-    videoTitle: "Kenia w ruchu",
-    videoText: "Krótkie spojrzenie na krajobrazy i dziką przyrodę, która na Ciebie czeka.",
+    videosLabel: "Wideo",
   },
   blog: {
     eyebrow: "Porady podróżnicze",

@@ -4,6 +4,7 @@ import { getDictionary } from "@/i18n/get-dictionary";
 import { Container } from "@/components/ui/Container";
 import { LinkButton } from "@/components/ui/Button";
 import { TourCard } from "@/components/ui/TourCard";
+import { InquireIcons } from "@/components/ui/InquireIcons";
 import { DestinationCard } from "@/components/ui/DestinationCard";
 import tours from "@/data/tours";
 import destinations from "@/data/destinations";
@@ -96,10 +97,14 @@ export default async function HomePage({
               {dict.common.viewAll} →
             </LinkButton>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-10">
             {featuredTours.map((tour) => (
               <TourCard key={tour.slug} tour={tour} locale={loc} dict={dict} />
             ))}
+          </div>
+          <div className="rounded-2xl border border-border bg-surface p-6 flex flex-wrap items-center justify-between gap-4">
+            <p className="font-medium text-foreground">{dict.tours.inquireTitle}</p>
+            <InquireIcons />
           </div>
         </Container>
       </section>
