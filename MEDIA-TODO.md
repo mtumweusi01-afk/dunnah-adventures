@@ -57,21 +57,43 @@ from working today — it's all placeholder-but-functional.
       Real photos also swapped in as the Maasai Mara, Amboseli, Tsavo, and
       Lake Nakuru destination cover images in
       [src/data/destinations.ts](src/data/destinations.ts).
-- [x] **Videos broken down per destination** (Maasai Mara, Amboseli, Tsavo,
-      Maasai Culture each get their own video grid under their photos, plus
-      a small Guest Experience video grid) instead of one flat list — 29
-      videos total.
+- [x] **Videos broken down per destination**, trimmed to the best 6 clips
+      each for Maasai Mara, Amboseli and Tsavo (down from 9/8/9) to keep the
+      grids tight rather than exhaustive; Maasai Culture keeps its 1 video,
+      plus a small Guest Experience video grid.
+- [x] **Homepage Amboseli card re-framed** — `amboseli-gate.jpg` was
+      pre-cropped (not just left to CSS `object-cover`) to a 4:3 crop that
+      keeps the whole group and the gate sign clearly in frame at thumbnail
+      size.
+- [x] **Marine park / deep-sea fishing tour photos replaced** —
+      `malindi-marine.jpg`, `watamu-marine.jpg` and `deep-sea-fishing.jpg`
+      previously showed identifiable tourists/staff sourced from
+      mukasafaris.com with no connection to Dunnah Adventures. Replaced with
+      Wikimedia Commons scenery shots (boats/coast/open water, no
+      identifiable people).
 - [ ] **Diani Beach, Mount Kenya, and Maasai Culture** still use Wikimedia
       Commons placeholder photos — no confidently-matching real photo has
       been supplied for these yet. Same for the 3 original generic gallery
       placeholders (`savanna-sunset.jpg`, `safari-jeep.jpg`,
-      `safari-lodge.jpg`). Until every Commons image is replaced,
-      `/en/photo-credits/` and `src/data/photo-credits.ts` must stay (and
-      the footer link to it).
+      `safari-lodge.jpg`), and all 7 newly-added destinations below. Until
+      every Commons image is replaced, `/en/photo-credits/` and
+      `src/data/photo-credits.ts` must stay (and the footer link to it).
 - [!] **`tsavo-lion-hunt.jpg` / `tsavo-lion-hunt.mp4`** show a real lioness
       feeding on a zebra kill, with visible blood — included at the owner's
       explicit request after being flagged. Worth knowing this is on the
       public site if that's ever a question from a partner or reviewer.
+
+## Destinations catalog
+
+- [x] **7 new destinations added** to
+      [src/data/destinations.ts](src/data/destinations.ts), each with a
+      Wikimedia Commons cover photo (credited in `photo-credits.ts`) and
+      full 6-language copy: Samburu National Reserve, Wasini Island, Lake
+      Naivasha, Ol Pejeta Conservancy, Nairobi National Park, Aberdare
+      National Park, Meru National Park — 14 destinations total, covering
+      the main wildlife/nature circuits across Kenya (savannah, coast,
+      highlands, rift valley lakes, conservancies, and Nairobi's in-city
+      park).
 
 ## Tours catalog
 

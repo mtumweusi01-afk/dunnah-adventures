@@ -97,6 +97,80 @@ const photoCredits: PhotoCredit[] = [
     sourceUrl:
       "https://commons.wikimedia.org/wiki/File:Lodge_Keekorok.Maasai_Mara_National_Park_-_panoramio.jpg",
   },
+  {
+    path: "/images/destinations/samburu.jpg",
+    title: "Reticulated giraffe, Samburu National Reserve",
+    author: "Dan Lundberg",
+    license: "CC BY-SA 2.0",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:1993_147-3A_Samburu_reticulated_giraffe.jpg",
+  },
+  {
+    path: "/images/destinations/wasini-island.jpg",
+    title: "Jardin de Corail de Wasini",
+    author: "FredD (Frédéric Ducarme)",
+    license: "CC BY-SA 3.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Jardin_de_Corail_de_Wasini.JPG",
+  },
+  {
+    path: "/images/destinations/lake-naivasha.jpg",
+    title: "Sunset at Lake Naivasha",
+    author: "Gopal Vijayaraghavan",
+    license: "CC BY 2.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Sunset_at_Lake_Naivasha.jpg",
+  },
+  {
+    path: "/images/destinations/ol-pejeta.jpg",
+    title: "Southern White Rhinos, Ol Pejeta Conservancy, Kenya",
+    author: "Ray in Manila",
+    license: "CC BY 2.0",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:Southern_White_Rhinos,_Ol_Pejeta_Conservancy,_Kenya_(44968104354).jpg",
+  },
+  {
+    path: "/images/destinations/aberdare.jpg",
+    title: "Chania Falls, Aberdare National Park",
+    author: "GeGki",
+    license: "CC BY-SA 4.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Chania_falls.jpg",
+  },
+  {
+    path: "/images/destinations/meru.jpg",
+    title: "Elephants, Meru National Park",
+    author: "Musakush",
+    license: "CC BY-SA 4.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Meru_National_Park-_Elephant.jpg",
+  },
+  {
+    path: "/images/tours/malindi-marine.jpg",
+    title: "Malindi Marine National Park",
+    author: "Nicor",
+    license: "CC BY-SA",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Malindi_Marine_National_Park_02.jpg",
+  },
+  {
+    path: "/images/tours/watamu-marine.jpg",
+    title: "Watamu Marine Park",
+    author: "Useslip",
+    license: "CC BY-SA 3.0",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Watamu_Marine_Park.JPG",
+  },
+  {
+    path: "/images/tours/deep-sea-fishing.jpg",
+    title: "Fisherman on his boat in Mombasa",
+    author: "Andrew Atina (Fuenteatina)",
+    license: "CC BY-SA 4.0",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:Fisherman_on_his_boat_in_Mombasa.jpg",
+  },
+  {
+    path: "/images/destinations/nairobi-national-park.jpg",
+    title: "Male rhinoceros together with birds carry out a true mutualistic symbiosis",
+    author: "Najla Khairani Siregar",
+    license: "CC BY-SA 4.0",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:Male_rhinoceros_together_with_birds_carry_out_a_true_mutualistic_symbiosis.jpg",
+  },
 ];
 
 export default photoCredits;
